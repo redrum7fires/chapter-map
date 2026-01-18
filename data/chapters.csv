@@ -1,6 +1,7 @@
-ChapterName,City,StateRegion,Country
-Seven Fires - Tulsa,Tulsa,Oklahoma,USA
-Otter Trail - OKC,Oklahoma City,Oklahoma,USA
-London Chapter,London,,United Kingdom
-Berlin Chapter,Berlin,,Germany
-Sydney Chapter,Sydney,New South Wales,Australia
+ChapterName,City,StateRegion,Country,PresidentName,PresidentCell,VicePresidentName,VicePresidentCell
+Seven Fires - Tulsa,Tulsa,Oklahoma,USA,John Doe,918-555-1234,Jane Doe,918-555-5678
+Otter Trail - OKC,Oklahoma City,Oklahoma,USA,Michael Smith,405-555-2222,Sarah Smith,405-555-3333
+London - London,London,,United Kingdom,James Walker,+44 7700 900123,Emily Walker,+44 7700 900456
+Berlin - Berlin,Berlin,,Germany,Thomas Müller,+49 151 2345678,Anna Müller,+49 151 9876543
+Sydney - Sydney,Sydney,New South Wales,Australia,David Brown,+61 412 345 678,Rebecca Brown,+61 423 456 789
+

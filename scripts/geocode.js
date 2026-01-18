@@ -4,6 +4,12 @@
  * Output: data/chapters.json
  * Cache : data/geocode-cache.json
  *
+ * CSV required columns:
+ *   ChapterName, City, StateRegion, Country
+ *
+ * CSV optional columns (for popup info):
+ *   PresidentName, PresidentCell, VicePresidentName, VicePresidentCell
+ *
  * Run:
  *   node scripts/geocode.js
  */
@@ -22,7 +28,7 @@ const CSV_PATH = path.join(DATA_DIR, "chapters.csv");
 const OUT_JSON_PATH = path.join(DATA_DIR, "chapters.json");
 const CACHE_PATH = path.join(DATA_DIR, "geocode-cache.json");
 
-// Be polite (200 chapters is fine). You can lower to 200-300ms if you want.
+// Be polite; 200 chapters is fine.
 const REQUEST_DELAY_MS = 500;
 
 /* ----------------------------- helpers ----------------------------- */
@@ -38,6 +44,15 @@ function loadJsonIfExists(filePath, fallback = {}) {
 
 function saveJson(filePath, data) {
   fs.writeFileSync(filePath, JSON.stringify(data, null, 2), "utf8");
+}
+
+function normalizeCountry(country) {
+  const c = (country || "").trim().toLowerCase();
+
+  if (c === "usa" || c === "us" || c === "u.s." || c === "u.s.a.") return "United States";
+  if (c === "uk" || c === "u.k.") return "United Kingdom";
+
+  return (country || "").trim();
 }
 
 function parseCsv(csvText) {
@@ -56,27 +71,33 @@ function parseCsv(csvText) {
     if (idx(col) === -1) throw new Error(`CSV missing required column: ${col}`);
   }
 
+  // Optional columns (may be missing in early test CSVs)
+  const opt = (col) => (idx(col) === -1 ? null : idx(col));
+
+  const pName = opt("PresidentName");
+  const pCell = opt("PresidentCell");
+  const vpName = opt("VicePresidentName");
+  const vpCell = opt("VicePresidentCell");
+
   return lines.map((line) => {
-    // Simple CSV split: keep values comma-free (no quoted commas).
+    // NOTE: this assumes no commas inside values (no quoted commas).
     const parts = line.split(",").map((p) => p.trim());
+
+    const country = normalizeCountry(parts[idx("Country")] || "");
+
     return {
       ChapterName: parts[idx("ChapterName")] || "",
       City: parts[idx("City")] || "",
       StateRegion: parts[idx("StateRegion")] || "",
-      Country: parts[idx("Country")] || ""
+      Country: country,
+
+      // Optional officer fields
+      PresidentName: pName !== null ? parts[pName] || "" : "",
+      PresidentCell: pCell !== null ? parts[pCell] || "" : "",
+      VicePresidentName: vpName !== null ? parts[vpName] || "" : "",
+      VicePresidentCell: vpCell !== null ? parts[vpCell] || "" : ""
     };
   });
-}
-
-function normalizeCountry(country) {
-  const c = (country || "").trim().toLowerCase();
-
-  // common variants
-  if (c === "usa" || c === "us" || c === "u.s." || c === "u.s.a.") return "United States";
-  if (c === "uk" || c === "u.k.") return "United Kingdom";
-
-  // keep original if it looks fine
-  return (country || "").trim();
 }
 
 function makeCacheKey({ City, StateRegion, Country }) {
@@ -109,13 +130,7 @@ async function openMeteoSearch(name) {
   const lng = Number(hit.longitude);
   if (!Number.isFinite(lat) || !Number.isFinite(lng)) return null;
 
-  return {
-    lat,
-    lng,
-    display_name: hit.name || "",
-    admin1: hit.admin1 || "",
-    country: hit.country || ""
-  };
+  return { lat, lng };
 }
 
 async function geocodeOpenMeteo({ City, StateRegion, Country }) {
@@ -125,10 +140,7 @@ async function geocodeOpenMeteo({ City, StateRegion, Country }) {
 
   if (!city || !country) return null;
 
-  // Try best-to-worst query formats:
-  // 1) City, State, Country
-  // 2) City, Country
-  // 3) City (last resort)
+  // Best-to-worst query formats:
   const candidates = [
     [city, state, country].filter(Boolean).join(", "),
     [city, country].filter(Boolean).join(", "),
@@ -164,14 +176,24 @@ async function main() {
     const row = rows[i];
     const key = makeCacheKey(row);
 
+    // Always include officer fields in output, even if geocode fails
+    const baseOut = {
+      id: i + 1,
+      chapterName: row.ChapterName,
+      city: row.City,
+      stateRegion: row.StateRegion,
+      country: row.Country,
+
+      presidentName: row.PresidentName,
+      presidentCell: row.PresidentCell,
+      vicePresidentName: row.VicePresidentName,
+      vicePresidentCell: row.VicePresidentCell
+    };
+
     if (!key) {
       failures++;
       output.push({
-        id: i + 1,
-        chapterName: row.ChapterName,
-        city: row.City,
-        stateRegion: row.StateRegion,
-        country: row.Country,
+        ...baseOut,
         lat: null,
         lng: null,
         geocodeNote: "missing location data"
@@ -182,11 +204,7 @@ async function main() {
     if (cache[key]) {
       cacheHits++;
       output.push({
-        id: i + 1,
-        chapterName: row.ChapterName,
-        city: row.City,
-        stateRegion: row.StateRegion,
-        country: normalizeCountry(row.Country),
+        ...baseOut,
         lat: cache[key].lat,
         lng: cache[key].lng,
         geocodeNote: "cache"
@@ -206,11 +224,7 @@ async function main() {
         failures++;
         console.log("NOT FOUND");
         output.push({
-          id: i + 1,
-          chapterName: row.ChapterName,
-          city: row.City,
-          stateRegion: row.StateRegion,
-          country: normalizeCountry(row.Country),
+          ...baseOut,
           lat: null,
           lng: null,
           geocodeNote: "not found"
@@ -221,11 +235,7 @@ async function main() {
         cache[key] = { lat: result.lat, lng: result.lng };
 
         output.push({
-          id: i + 1,
-          chapterName: row.ChapterName,
-          city: row.City,
-          stateRegion: row.StateRegion,
-          country: normalizeCountry(row.Country),
+          ...baseOut,
           lat: result.lat,
           lng: result.lng,
           geocodeNote: "open-meteo"
@@ -235,11 +245,7 @@ async function main() {
       failures++;
       console.log("ERROR");
       output.push({
-        id: i + 1,
-        chapterName: row.ChapterName,
-        city: row.City,
-        stateRegion: row.StateRegion,
-        country: normalizeCountry(row.Country),
+        ...baseOut,
         lat: null,
         lng: null,
         geocodeNote: `error: ${err.message}`
