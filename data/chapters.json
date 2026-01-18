@@ -1,0 +1,52 @@
+[
+  {
+    "id": 1,
+    "chapterName": "Seven Fires - Tulsa",
+    "city": "Tulsa",
+    "stateRegion": "Oklahoma",
+    "country": "USA",
+    "lat": null,
+    "lng": null,
+    "geocodeNote": "error: Nominatim error 403: <html>\n<head>\n<title>Access blocked</title>\n</head>\n<body>\n<h1>Access blocked</h1>\n\n<p>You have been blocked because you have violated the\n<a href=\"https://operations.osmfoundation.org/policies/nomina"
+  },
+  {
+    "id": 2,
+    "chapterName": "Seven Fires - OKC",
+    "city": "Oklahoma City",
+    "stateRegion": "Oklahoma",
+    "country": "USA",
+    "lat": null,
+    "lng": null,
+    "geocodeNote": "error: Nominatim error 403: <html>\n<head>\n<title>Access blocked</title>\n</head>\n<body>\n<h1>Access blocked</h1>\n\n<p>You have been blocked because you have violated the\n<a href=\"https://operations.osmfoundation.org/policies/nomina"
+  },
+  {
+    "id": 3,
+    "chapterName": "London Chapter",
+    "city": "London",
+    "stateRegion": "",
+    "country": "United Kingdom",
+    "lat": null,
+    "lng": null,
+    "geocodeNote": "error: Nominatim error 403: <html>\n<head>\n<title>Access blocked</title>\n</head>\n<body>\n<h1>Access blocked</h1>\n\n<p>You have been blocked because you have violated the\n<a href=\"https://operations.osmfoundation.org/policies/nomina"
+  },
+  {
+    "id": 4,
+    "chapterName": "Berlin Chapter",
+    "city": "Berlin",
+    "stateRegion": "",
+    "country": "Germany",
+    "lat": null,
+    "lng": null,
+    "geocodeNote": "error: Nominatim error 403: <html>\n<head>\n<title>Access blocked</title>\n</head>\n<body>\n<h1>Access blocked</h1>\n\n<p>You have been blocked because you have violated the\n<a href=\"https://operations.osmfoundation.org/policies/nomina"
+  },
+  {
+    "id": 5,
+    "chapterName": "Sydney Chapter",
+    "city": "Sydney",
+    "stateRegion": "New South Wales",
+    "country": "Australia",
+    "lat": null,
+    "lng": null,
+    "geocodeNote": "error: Nominatim error 403: <html>\n<head>\n<title>Access blocked</title>\n</head>\n<body>\n<h1>Access blocked</h1>\n\n<p>You have been blocked because you have violated the\n<a href=\"https://operations.osmfoundation.org/policies/nomina"
+  }
+]
