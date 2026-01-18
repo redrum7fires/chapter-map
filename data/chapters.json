@@ -4,20 +4,20 @@
     "chapterName": "Seven Fires - Tulsa",
     "city": "Tulsa",
     "stateRegion": "Oklahoma",
-    "country": "USA",
-    "lat": null,
-    "lng": null,
-    "geocodeNote": "not found"
+    "country": "United States",
+    "lat": 36.15398,
+    "lng": -95.99277,
+    "geocodeNote": "open-meteo"
   },
   {
     "id": 2,
     "chapterName": "Seven Fires - OKC",
     "city": "Oklahoma City",
     "stateRegion": "Oklahoma",
-    "country": "USA",
-    "lat": null,
-    "lng": null,
-    "geocodeNote": "not found"
+    "country": "United States",
+    "lat": 35.46756,
+    "lng": -97.51643,
+    "geocodeNote": "open-meteo"
   },
   {
     "id": 3,
@@ -27,7 +27,7 @@
     "country": "United Kingdom",
     "lat": 51.50853,
     "lng": -0.12574,
-    "geocodeNote": "open-meteo"
+    "geocodeNote": "cache"
   },
   {
     "id": 4,
@@ -37,7 +37,7 @@
     "country": "Germany",
     "lat": 52.52437,
     "lng": 13.41053,
-    "geocodeNote": "open-meteo"
+    "geocodeNote": "cache"
   },
   {
     "id": 5,
@@ -45,8 +45,8 @@
     "city": "Sydney",
     "stateRegion": "New South Wales",
     "country": "Australia",
-    "lat": null,
-    "lng": null,
-    "geocodeNote": "not found"
+    "lat": -33.86785,
+    "lng": 151.20732,
+    "geocodeNote": "open-meteo"
   }
 ]

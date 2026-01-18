@@ -6,5 +6,17 @@
   "berlin|germany": {
     "lat": 52.52437,
     "lng": 13.41053
+  },
+  "tulsa|oklahoma|united states": {
+    "lat": 36.15398,
+    "lng": -95.99277
+  },
+  "oklahoma city|oklahoma|united states": {
+    "lat": 35.46756,
+    "lng": -97.51643
+  },
+  "sydney|new south wales|australia": {
+    "lat": -33.86785,
+    "lng": 151.20732
   }
 }
