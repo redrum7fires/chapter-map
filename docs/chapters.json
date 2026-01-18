@@ -1,0 +1,52 @@
+[
+  {
+    "id": 1,
+    "chapterName": "Seven Fires - Tulsa",
+    "city": "Tulsa",
+    "stateRegion": "Oklahoma",
+    "country": "United States",
+    "lat": 36.15398,
+    "lng": -95.99277,
+    "geocodeNote": "open-meteo"
+  },
+  {
+    "id": 2,
+    "chapterName": "Seven Fires - OKC",
+    "city": "Oklahoma City",
+    "stateRegion": "Oklahoma",
+    "country": "United States",
+    "lat": 35.46756,
+    "lng": -97.51643,
+    "geocodeNote": "open-meteo"
+  },
+  {
+    "id": 3,
+    "chapterName": "London Chapter",
+    "city": "London",
+    "stateRegion": "",
+    "country": "United Kingdom",
+    "lat": 51.50853,
+    "lng": -0.12574,
+    "geocodeNote": "cache"
+  },
+  {
+    "id": 4,
+    "chapterName": "Berlin Chapter",
+    "city": "Berlin",
+    "stateRegion": "",
+    "country": "Germany",
+    "lat": 52.52437,
+    "lng": 13.41053,
+    "geocodeNote": "cache"
+  },
+  {
+    "id": 5,
+    "chapterName": "Sydney Chapter",
+    "city": "Sydney",
+    "stateRegion": "New South Wales",
+    "country": "Australia",
+    "lat": -33.86785,
+    "lng": 151.20732,
+    "geocodeNote": "open-meteo"
+  }
+]
