@@ -7,17 +7,17 @@
     "country": "United States",
     "lat": 36.15398,
     "lng": -95.99277,
-    "geocodeNote": "open-meteo"
+    "geocodeNote": "cache"
   },
   {
     "id": 2,
-    "chapterName": "Seven Fires - OKC",
+    "chapterName": "Otter Trail - OKC",
     "city": "Oklahoma City",
     "stateRegion": "Oklahoma",
     "country": "United States",
     "lat": 35.46756,
     "lng": -97.51643,
-    "geocodeNote": "open-meteo"
+    "geocodeNote": "cache"
   },
   {
     "id": 3,
@@ -47,6 +47,6 @@
     "country": "Australia",
     "lat": -33.86785,
     "lng": 151.20732,
-    "geocodeNote": "open-meteo"
+    "geocodeNote": "cache"
   }
 ]
