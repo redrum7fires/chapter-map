@@ -7,7 +7,7 @@
     "country": "USA",
     "lat": null,
     "lng": null,
-    "geocodeNote": "error: Nominatim error 403: <html>\n<head>\n<title>Access blocked</title>\n</head>\n<body>\n<h1>Access blocked</h1>\n\n<p>You have been blocked because you have violated the\n<a href=\"https://operations.osmfoundation.org/policies/nomina"
+    "geocodeNote": "not found"
   },
   {
     "id": 2,
@@ -17,7 +17,7 @@
     "country": "USA",
     "lat": null,
     "lng": null,
-    "geocodeNote": "error: Nominatim error 403: <html>\n<head>\n<title>Access blocked</title>\n</head>\n<body>\n<h1>Access blocked</h1>\n\n<p>You have been blocked because you have violated the\n<a href=\"https://operations.osmfoundation.org/policies/nomina"
+    "geocodeNote": "not found"
   },
   {
     "id": 3,
@@ -25,9 +25,9 @@
     "city": "London",
     "stateRegion": "",
     "country": "United Kingdom",
-    "lat": null,
-    "lng": null,
-    "geocodeNote": "error: Nominatim error 403: <html>\n<head>\n<title>Access blocked</title>\n</head>\n<body>\n<h1>Access blocked</h1>\n\n<p>You have been blocked because you have violated the\n<a href=\"https://operations.osmfoundation.org/policies/nomina"
+    "lat": 51.50853,
+    "lng": -0.12574,
+    "geocodeNote": "open-meteo"
   },
   {
     "id": 4,
@@ -35,9 +35,9 @@
     "city": "Berlin",
     "stateRegion": "",
     "country": "Germany",
-    "lat": null,
-    "lng": null,
-    "geocodeNote": "error: Nominatim error 403: <html>\n<head>\n<title>Access blocked</title>\n</head>\n<body>\n<h1>Access blocked</h1>\n\n<p>You have been blocked because you have violated the\n<a href=\"https://operations.osmfoundation.org/policies/nomina"
+    "lat": 52.52437,
+    "lng": 13.41053,
+    "geocodeNote": "open-meteo"
   },
   {
     "id": 5,
@@ -47,6 +47,6 @@
     "country": "Australia",
     "lat": null,
     "lng": null,
-    "geocodeNote": "error: Nominatim error 403: <html>\n<head>\n<title>Access blocked</title>\n</head>\n<body>\n<h1>Access blocked</h1>\n\n<p>You have been blocked because you have violated the\n<a href=\"https://operations.osmfoundation.org/policies/nomina"
+    "geocodeNote": "not found"
   }
 ]

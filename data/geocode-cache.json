@@ -1,1 +1,10 @@
-{}
+{
+  "london|united kingdom": {
+    "lat": 51.50853,
+    "lng": -0.12574
+  },
+  "berlin|germany": {
+    "lat": 52.52437,
+    "lng": 13.41053
+  }
+}
