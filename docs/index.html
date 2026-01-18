@@ -162,7 +162,7 @@
 
     async function load() {
       // chapters.json is generated in /data. When serving, we'll map it to /chapters.json
-      const res = await fetch('/chapters.json');
+      const res = await fetch('chapters.json');
       const rows = await res.json();
 
       allData = rows.map(r => ({
