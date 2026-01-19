@@ -87,9 +87,21 @@
     "lat": 40.49673,
     "lng": -80.60674
   },
+  "tioga|pennsylvania|united states": {
+    "lat": 48.39724,
+    "lng": -102.93824
+  },
   "borinquen|puerto rico|united states": {
     "lat": 18.58333,
     "lng": -68.93333
+  },
+  "narragansett|rhode island|united states": {
+    "lat": 41.4501,
+    "lng": -71.4495
+  },
+  "mobridge|south dakota|united states": {
+    "lat": 45.53722,
+    "lng": -100.42791
   },
   "kingsport|tennessee|united states": {
     "lat": 36.54843,
@@ -111,6 +123,18 @@
     "lat": 29.42412,
     "lng": -98.49363
   },
+  "courtland|virginia|united states": {
+    "lat": 36.71626,
+    "lng": -77.06802
+  },
+  "blackstone|virginia|united states": {
+    "lat": 42.01788,
+    "lng": -71.54117
+  },
+  "williamsburg|virginia|united states": {
+    "lat": 37.2707,
+    "lng": -76.70746
+  },
   "puyallup|washington|united states": {
     "lat": 47.18538,
     "lng": -122.2929
@@ -122,6 +146,18 @@
   "spokan|washington|united states": {
     "lat": 47.65966,
     "lng": -117.42908
+  },
+  "yakima|washington|united states": {
+    "lat": 46.60207,
+    "lng": -120.5059
+  },
+  "tacoma|washington|united states": {
+    "lat": 47.25288,
+    "lng": -122.44429
+  },
+  "alguaire|catalonia|spain": {
+    "lat": 41.73703,
+    "lng": 0.5845
   },
   "essex|ontario|canada": {
     "lat": 39.30927,
@@ -135,9 +171,33 @@
     "lat": 40.78788,
     "lng": -74.38821
   },
+  "cairns|queensland|australia": {
+    "lat": -16.92366,
+    "lng": 145.76613
+  },
+  "brasilia|brazil": {
+    "lat": -15.77972,
+    "lng": -47.92972
+  },
+  "sao paulo|brazil": {
+    "lat": -23.5475,
+    "lng": -46.63611
+  },
+  "tournai|belgium": {
+    "lat": 50.60715,
+    "lng": 3.38932
+  },
   "manitoulin island|ontario|canada": {
     "lat": 45.83337,
     "lng": -82.33313
+  },
+  "nanaimo|british columbia|canada": {
+    "lat": 49.16638,
+    "lng": -123.94003
+  },
+  "hamilton|ontario|canada": {
+    "lat": 43.25011,
+    "lng": -79.84963
   },
   "peterborough|ontario|canada": {
     "lat": 44.30012,
@@ -266,5 +326,9 @@
   "nottingham|united kingdom": {
     "lat": 52.9536,
     "lng": -1.15047
+  },
+  "caracas|venezuela": {
+    "lat": 10.48801,
+    "lng": -66.87919
   }
 }

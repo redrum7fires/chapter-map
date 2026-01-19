@@ -884,16 +884,16 @@
   {
     "id": 64,
     "chapterName": "Tioga",
-    "city": "",
+    "city": "Tioga",
     "stateRegion": "Pennsylvania",
     "country": "United States",
     "presidentName": "",
     "presidentCell": "",
     "vicePresidentName": "",
     "vicePresidentCell": "",
-    "lat": null,
-    "lng": null,
-    "geocodeNote": "not found"
+    "lat": 48.39724,
+    "lng": -102.93824,
+    "geocodeNote": "open-meteo"
   },
   {
     "id": 65,
@@ -912,30 +912,30 @@
   {
     "id": 66,
     "chapterName": "Narragansett",
-    "city": "",
+    "city": "Narragansett",
     "stateRegion": "Rhode Island",
     "country": "United States",
     "presidentName": "",
     "presidentCell": "",
     "vicePresidentName": "",
     "vicePresidentCell": "",
-    "lat": null,
-    "lng": null,
-    "geocodeNote": "not found"
+    "lat": 41.4501,
+    "lng": -71.4495,
+    "geocodeNote": "open-meteo"
   },
   {
     "id": 67,
     "chapterName": "Black Coyote",
-    "city": "",
+    "city": "Mobridge",
     "stateRegion": "South Dakota",
     "country": "United States",
     "presidentName": "",
     "presidentCell": "",
     "vicePresidentName": "",
     "vicePresidentCell": "",
-    "lat": null,
-    "lng": null,
-    "geocodeNote": "not found"
+    "lat": 45.53722,
+    "lng": -100.42791,
+    "geocodeNote": "open-meteo"
   },
   {
     "id": 68,
@@ -954,16 +954,16 @@
   {
     "id": 69,
     "chapterName": "Holston River",
-    "city": "",
+    "city": "Kingsport",
     "stateRegion": "Tennessee",
     "country": "United States",
     "presidentName": "",
     "presidentCell": "",
     "vicePresidentName": "",
     "vicePresidentCell": "",
-    "lat": null,
-    "lng": null,
-    "geocodeNote": "not found"
+    "lat": 36.54843,
+    "lng": -82.56182,
+    "geocodeNote": "open-meteo"
   },
   {
     "id": 70,
@@ -991,7 +991,7 @@
     "vicePresidentCell": "",
     "lat": 36.54843,
     "lng": -82.56182,
-    "geocodeNote": "open-meteo"
+    "geocodeNote": "cache"
   },
   {
     "id": 72,
@@ -1052,44 +1052,44 @@
   {
     "id": 76,
     "chapterName": "Cheroenhaka",
-    "city": "",
+    "city": "Courtland",
     "stateRegion": "Virginia",
     "country": "United States",
     "presidentName": "",
     "presidentCell": "",
     "vicePresidentName": "",
     "vicePresidentCell": "",
-    "lat": null,
-    "lng": null,
-    "geocodeNote": "not found"
+    "lat": 36.71626,
+    "lng": -77.06802,
+    "geocodeNote": "open-meteo"
   },
   {
     "id": 77,
     "chapterName": "\"Nottaway River \"\"Prospective\"\"\"",
-    "city": "",
+    "city": "Blackstone",
     "stateRegion": "Virginia",
     "country": "United States",
     "presidentName": "",
     "presidentCell": "",
     "vicePresidentName": "",
     "vicePresidentCell": "",
-    "lat": null,
-    "lng": null,
-    "geocodeNote": "not found"
+    "lat": 42.01788,
+    "lng": -71.54117,
+    "geocodeNote": "open-meteo"
   },
   {
     "id": 78,
     "chapterName": "Tsenacommacah",
-    "city": "",
+    "city": "Williamsburg",
     "stateRegion": "Virginia",
     "country": "United States",
     "presidentName": "",
     "presidentCell": "",
     "vicePresidentName": "",
     "vicePresidentCell": "",
-    "lat": null,
-    "lng": null,
-    "geocodeNote": "not found"
+    "lat": 37.2707,
+    "lng": -76.70746,
+    "geocodeNote": "open-meteo"
   },
   {
     "id": 79,
@@ -1136,44 +1136,44 @@
   {
     "id": 82,
     "chapterName": "Medicine Valley",
-    "city": "",
+    "city": "Yakima",
     "stateRegion": "Washington",
     "country": "United States",
     "presidentName": "",
     "presidentCell": "",
     "vicePresidentName": "",
     "vicePresidentCell": "",
-    "lat": null,
-    "lng": null,
-    "geocodeNote": "not found"
+    "lat": 46.60207,
+    "lng": -120.5059,
+    "geocodeNote": "open-meteo"
   },
   {
     "id": 83,
     "chapterName": "\"sxwda?deb \"\"Prospective\"\"\"",
-    "city": "",
+    "city": "Tacoma",
     "stateRegion": "Washington",
     "country": "United States",
     "presidentName": "",
     "presidentCell": "",
     "vicePresidentName": "",
     "vicePresidentCell": "",
-    "lat": null,
-    "lng": null,
-    "geocodeNote": "not found"
+    "lat": 47.25288,
+    "lng": -122.44429,
+    "geocodeNote": "open-meteo"
   },
   {
     "id": 84,
     "chapterName": "Iltirta",
-    "city": "",
-    "stateRegion": "",
+    "city": "Alguaire",
+    "stateRegion": "Catalonia",
     "country": "Spain",
     "presidentName": "",
     "presidentCell": "",
     "vicePresidentName": "",
     "vicePresidentCell": "",
-    "lat": null,
-    "lng": null,
-    "geocodeNote": "not found"
+    "lat": 41.73703,
+    "lng": 0.5845,
+    "geocodeNote": "open-meteo"
   },
   {
     "id": 85,
@@ -1220,58 +1220,58 @@
   {
     "id": 88,
     "chapterName": "Aboriginal Dumgan-Banji",
-    "city": "",
+    "city": "Cairns",
     "stateRegion": "Queensland",
     "country": "Australia",
     "presidentName": "",
     "presidentCell": "",
     "vicePresidentName": "",
     "vicePresidentCell": "",
-    "lat": null,
-    "lng": null,
-    "geocodeNote": "not found"
+    "lat": -16.92366,
+    "lng": 145.76613,
+    "geocodeNote": "open-meteo"
   },
   {
     "id": 89,
     "chapterName": "Brasil",
-    "city": "",
+    "city": "Brasilia",
     "stateRegion": "",
-    "country": "Brasil",
+    "country": "Brazil",
     "presidentName": "",
     "presidentCell": "",
     "vicePresidentName": "",
     "vicePresidentCell": "",
-    "lat": null,
-    "lng": null,
-    "geocodeNote": "not found"
+    "lat": -15.77972,
+    "lng": -47.92972,
+    "geocodeNote": "open-meteo"
   },
   {
     "id": 90,
     "chapterName": "Sao Paulo",
-    "city": "",
+    "city": "Sao Paulo",
     "stateRegion": "",
-    "country": "Brasil",
+    "country": "Brazil",
     "presidentName": "",
     "presidentCell": "",
     "vicePresidentName": "",
     "vicePresidentCell": "",
-    "lat": null,
-    "lng": null,
-    "geocodeNote": "not found"
+    "lat": -23.5475,
+    "lng": -46.63611,
+    "geocodeNote": "open-meteo"
   },
   {
     "id": 91,
     "chapterName": "\"Nervians \"\"Prospective\"\"\"",
-    "city": "",
+    "city": "Tournai",
     "stateRegion": "",
     "country": "Belgium",
     "presidentName": "",
     "presidentCell": "",
     "vicePresidentName": "",
     "vicePresidentCell": "",
-    "lat": null,
-    "lng": null,
-    "geocodeNote": "not found"
+    "lat": 50.60715,
+    "lng": 3.38932,
+    "geocodeNote": "open-meteo"
   },
   {
     "id": 92,
@@ -1290,30 +1290,30 @@
   {
     "id": 93,
     "chapterName": "Snake Island",
-    "city": "",
-    "stateRegion": "",
+    "city": "Nanaimo",
+    "stateRegion": "British Columbia",
     "country": "Canada",
     "presidentName": "",
     "presidentCell": "",
     "vicePresidentName": "",
     "vicePresidentCell": "",
-    "lat": null,
-    "lng": null,
-    "geocodeNote": "not found"
+    "lat": 49.16638,
+    "lng": -123.94003,
+    "geocodeNote": "open-meteo"
   },
   {
     "id": 94,
     "chapterName": "Treaty 3",
-    "city": "",
+    "city": "Hamilton",
     "stateRegion": "Ontario",
     "country": "Canada",
     "presidentName": "",
     "presidentCell": "",
     "vicePresidentName": "",
     "vicePresidentCell": "",
-    "lat": null,
-    "lng": null,
-    "geocodeNote": "not found"
+    "lat": 43.25011,
+    "lng": -79.84963,
+    "geocodeNote": "open-meteo"
   },
   {
     "id": 95,
@@ -1808,15 +1808,15 @@
   {
     "id": 130,
     "chapterName": "\"Venezuela \"\"Prosective\"\"\"",
-    "city": "",
+    "city": "Caracas",
     "stateRegion": "",
     "country": "Venezuela",
     "presidentName": "",
     "presidentCell": "",
     "vicePresidentName": "",
     "vicePresidentCell": "",
-    "lat": null,
-    "lng": null,
-    "geocodeNote": "not found"
+    "lat": 10.48801,
+    "lng": -66.87919,
+    "geocodeNote": "open-meteo"
   }
 ]
