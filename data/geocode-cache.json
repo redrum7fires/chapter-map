@@ -18,5 +18,25 @@
   "sydney|new south wales|australia": {
     "lat": -33.86785,
     "lng": 151.20732
+  },
+  "tahlequah|oklahoma|united states": {
+    "lat": 35.91537,
+    "lng": -94.96996
+  },
+  "amarillo|texas|united states": {
+    "lat": 35.222,
+    "lng": -101.8313
+  },
+  "denton|texas|united states": {
+    "lat": 33.21484,
+    "lng": -97.13307
+  },
+  "austin|texas|united states": {
+    "lat": 30.26715,
+    "lng": -97.74306
+  },
+  "san antonio|texas|united states": {
+    "lat": 29.42412,
+    "lng": -98.49363
   }
 }
