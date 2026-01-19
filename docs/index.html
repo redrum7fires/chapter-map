@@ -105,7 +105,7 @@
   <script>
     const map = L.map('map', { worldCopyJump: true }).setView([20, 0], 2);
 
-    // Free OpenStreetMap tiles
+    // OpenStreetMap tiles (free)
     L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
       maxZoom: 19,
       attribution: '&copy; OpenStreetMap contributors'
@@ -134,7 +134,6 @@
     }
 
     function phoneToTelHref(phone) {
-      // Keep digits and leading + only
       if (!phone) return '';
       const cleaned = String(phone).trim().replace(/[^\d+]/g, '');
       return cleaned ? `tel:${cleaned}` : '';
@@ -142,9 +141,6 @@
 
     function buildPopupHtml(row) {
       const label = locationLabel(row);
-
-      const hasPresident = (row.presidentName || row.presidentCell);
-      const hasVP = (row.vicePresidentName || row.vicePresidentCell);
 
       const presPhoneHref = phoneToTelHref(row.presidentCell);
       const vpPhoneHref = phoneToTelHref(row.vicePresidentCell);
@@ -154,7 +150,7 @@
           <div class="popup-title">${escapeHtml(row.chapterName || 'Chapter')}</div>
           <div class="popup-sub">${escapeHtml(label)}</div>
 
-          ${hasPresident ? `
+          ${row.presidentName || row.presidentCell ? `
             <div class="popup-row">
               <strong>President:</strong>
               ${escapeHtml(row.presidentName || '')}
@@ -164,7 +160,7 @@
             </div>
           ` : ``}
 
-          ${hasVP ? `
+          ${row.vicePresidentName || row.vicePresidentCell ? `
             <div class="popup-row">
               <strong>Vice President:</strong>
               ${escapeHtml(row.vicePresidentName || '')}
@@ -191,10 +187,18 @@
         const label = locationLabel(row);
         const marker = L.marker([row.lat, row.lng]);
 
-        // Hover tooltip: location only
-        marker.bindTooltip(label, { direction: 'top', sticky: true });
+        // TWO-LINE hover tooltip (chapter + location)
+        const tooltipHtml = `
+          <strong>${escapeHtml(row.chapterName || 'Chapter')}</strong><br>
+          ${escapeHtml(label)}
+        `;
+        marker.bindTooltip(tooltipHtml, {
+          direction: 'top',
+          sticky: true,
+          opacity: 0.95
+        });
 
-        // Click popup: chapter + officers
+        // Click popup
         marker.bindPopup(buildPopupHtml(row));
 
         cluster.addLayer(marker);
@@ -235,15 +239,11 @@
     }
 
     async function load() {
-      // GitHub Pages-friendly relative path
       const res = await fetch('chapters.json');
       if (!res.ok) throw new Error(`HTTP ${res.status} loading chapters.json`);
 
       const rows = await res.json();
 
-      // Expect fields from your geocode.js output:
-      // chapterName, city, stateRegion, country, lat, lng,
-      // presidentName, presidentCell, vicePresidentName, vicePresidentCell
       allData = rows.map(r => ({
         id: r.id,
         chapterName: r.chapterName,
@@ -264,7 +264,7 @@
     searchEl.addEventListener('input', applySearch);
 
     load().catch(err => {
-      metaEl.textContent = 'Failed to load chapters.json (is it in the same folder as index.html?)';
+      metaEl.textContent = 'Failed to load chapters.json (check file placement)';
       console.error(err);
     });
   </script>
