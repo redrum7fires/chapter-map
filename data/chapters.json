@@ -492,30 +492,30 @@
   {
     "id": 36,
     "chapterName": "\"Fort Peck \"\"Prospectiv\"\"\"",
-    "city": "",
+    "city": "Fort Peck",
     "stateRegion": "Montana",
     "country": "United States",
     "presidentName": "",
     "presidentCell": "",
     "vicePresidentName": "",
     "vicePresidentCell": "",
-    "lat": null,
-    "lng": null,
-    "geocodeNote": "not found"
+    "lat": 48.00889,
+    "lng": -106.44861,
+    "geocodeNote": "open-meteo"
   },
   {
     "id": 37,
     "chapterName": "Isanti Dakota",
-    "city": "",
+    "city": "Valentine",
     "stateRegion": "Nebraska",
     "country": "United States",
     "presidentName": "",
     "presidentCell": "",
     "vicePresidentName": "",
     "vicePresidentCell": "",
-    "lat": null,
-    "lng": null,
-    "geocodeNote": "not found"
+    "lat": 42.87278,
+    "lng": -100.55097,
+    "geocodeNote": "open-meteo"
   },
   {
     "id": 38,
@@ -618,30 +618,30 @@
   {
     "id": 45,
     "chapterName": "Brooklyn",
-    "city": "",
+    "city": "Brooklyn",
     "stateRegion": "New York",
     "country": "United States",
     "presidentName": "",
     "presidentCell": "",
     "vicePresidentName": "",
     "vicePresidentCell": "",
-    "lat": null,
-    "lng": null,
-    "geocodeNote": "not found"
+    "lat": 40.6501,
+    "lng": -73.94958,
+    "geocodeNote": "open-meteo"
   },
   {
     "id": 46,
     "chapterName": "Staten Island",
-    "city": "",
+    "city": "Staten Island",
     "stateRegion": "New York",
     "country": "United States",
     "presidentName": "",
     "presidentCell": "",
     "vicePresidentName": "",
     "vicePresidentCell": "",
-    "lat": null,
-    "lng": null,
-    "geocodeNote": "not found"
+    "lat": 40.56233,
+    "lng": -74.13986,
+    "geocodeNote": "open-meteo"
   },
   {
     "id": 47,
@@ -688,16 +688,16 @@
   {
     "id": 50,
     "chapterName": "Genesee Valley",
-    "city": "",
+    "city": "Geneseo",
     "stateRegion": "New York",
     "country": "United States",
     "presidentName": "",
     "presidentCell": "",
     "vicePresidentName": "",
     "vicePresidentCell": "",
-    "lat": null,
-    "lng": null,
-    "geocodeNote": "not found"
+    "lat": 42.7959,
+    "lng": -77.81695,
+    "geocodeNote": "open-meteo"
   },
   {
     "id": 51,
@@ -716,30 +716,30 @@
   {
     "id": 52,
     "chapterName": "Niagra",
-    "city": "",
+    "city": "Niagra",
     "stateRegion": "New York",
     "country": "United States",
     "presidentName": "",
     "presidentCell": "",
     "vicePresidentName": "",
     "vicePresidentCell": "",
-    "lat": null,
-    "lng": null,
-    "geocodeNote": "not found"
+    "lat": 37.92277,
+    "lng": -107.42561,
+    "geocodeNote": "open-meteo"
   },
   {
     "id": 53,
     "chapterName": "Seneca Nation",
-    "city": "",
+    "city": "Irving",
     "stateRegion": "New York",
     "country": "United States",
     "presidentName": "",
     "presidentCell": "",
     "vicePresidentName": "",
     "vicePresidentCell": "",
-    "lat": null,
-    "lng": null,
-    "geocodeNote": "not found"
+    "lat": 32.81402,
+    "lng": -96.94889,
+    "geocodeNote": "open-meteo"
   },
   {
     "id": 54,
@@ -772,30 +772,30 @@
   {
     "id": 56,
     "chapterName": "Rob Co.",
-    "city": "FAIRMONT�",
+    "city": "FAIRMONT",
     "stateRegion": "North Carolina",
     "country": "United States",
     "presidentName": "",
     "presidentCell": "",
     "vicePresidentName": "",
     "vicePresidentCell": "",
-    "lat": null,
-    "lng": null,
-    "geocodeNote": "error: Nominatim error 403: <html>\n<head>\n<title>Access blocked</title>\n</head>\n<body>\n<h1>Access blocked</h1>\n\n<p>You have been blocked because you have violated the\n<a href=\"https://operations.osmfoundation.org/policies/nomina"
+    "lat": 39.48508,
+    "lng": -80.14258,
+    "geocodeNote": "open-meteo"
   },
   {
     "id": 57,
     "chapterName": "Cherokee Reservation",
-    "city": "",
+    "city": "Cherokee",
     "stateRegion": "North Carolina",
     "country": "United States",
     "presidentName": "",
     "presidentCell": "",
     "vicePresidentName": "",
     "vicePresidentCell": "",
-    "lat": null,
-    "lng": null,
-    "geocodeNote": "not found"
+    "lat": 42.74943,
+    "lng": -95.55167,
+    "geocodeNote": "open-meteo"
   },
   {
     "id": 58,

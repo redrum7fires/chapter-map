@@ -63,13 +63,49 @@
     "lat": 47.31524,
     "lng": -95.96865
   },
+  "fort peck|montana|united states": {
+    "lat": 48.00889,
+    "lng": -106.44861
+  },
+  "valentine|nebraska|united states": {
+    "lat": 42.87278,
+    "lng": -100.55097
+  },
+  "brooklyn|new york|united states": {
+    "lat": 40.6501,
+    "lng": -73.94958
+  },
+  "staten island|new york|united states": {
+    "lat": 40.56233,
+    "lng": -74.13986
+  },
   "syracuse|new york|united states": {
     "lat": 43.04812,
     "lng": -76.14742
   },
+  "geneseo|new york|united states": {
+    "lat": 42.7959,
+    "lng": -77.81695
+  },
+  "niagra|new york|united states": {
+    "lat": 37.92277,
+    "lng": -107.42561
+  },
+  "irving|new york|united states": {
+    "lat": 32.81402,
+    "lng": -96.94889
+  },
   "walnut cove|north carolina|united states": {
     "lat": 36.29541,
     "lng": -80.14171
+  },
+  "fairmont|north carolina|united states": {
+    "lat": 39.48508,
+    "lng": -80.14258
+  },
+  "cherokee|north carolina|united states": {
+    "lat": 42.74943,
+    "lng": -95.55167
   },
   "north royalton|ohio|united states": {
     "lat": 41.31366,
