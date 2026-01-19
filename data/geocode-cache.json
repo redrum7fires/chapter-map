@@ -123,10 +123,6 @@
     "lat": 47.65966,
     "lng": -117.42908
   },
-  "barcelona|catalonia|spain": {
-    "lat": 41.38879,
-    "lng": 2.15899
-  },
   "essex|ontario|canada": {
     "lat": 39.30927,
     "lng": -76.47496
@@ -138,5 +134,33 @@
   "afton|nova scotia|canada": {
     "lat": 40.78788,
     "lng": -74.38821
+  },
+  "manitoulin island|ontario|canada": {
+    "lat": 45.83337,
+    "lng": -82.33313
+  },
+  "peterborough|ontario|canada": {
+    "lat": 44.30012,
+    "lng": -78.31623
+  },
+  "edmonton|alberta|canada": {
+    "lat": 53.55014,
+    "lng": -113.46871
+  },
+  "tangiers|morocco": {
+    "lat": 35.76727,
+    "lng": -5.79975
+  },
+  "casablanca|morocco": {
+    "lat": 33.58831,
+    "lng": -7.61138
+  },
+  "barcelona|catalonia|spain": {
+    "lat": 41.38879,
+    "lng": 2.15899
+  },
+  "bangkok|thailand": {
+    "lat": 13.75398,
+    "lng": 100.50144
   }
 }
