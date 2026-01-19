@@ -147,6 +147,74 @@
     "lat": 53.55014,
     "lng": -113.46871
   },
+  "saskatoon|saskatchewan�|canada": {
+    "lat": 52.13238,
+    "lng": -106.66892
+  },
+  "grande prairie|alberta|canada": {
+    "lat": 55.16667,
+    "lng": -118.80271
+  },
+  "prince george|british columbia|canada": {
+    "lat": 53.9166,
+    "lng": -122.75301
+  },
+  "heinsburg|alberta|canada": {
+    "lat": 53.76687,
+    "lng": -110.51835
+  },
+  "wetaskiwin|alberta|canada": {
+    "lat": 52.96683,
+    "lng": -113.36869
+  },
+  "calgary|alberta|canada": {
+    "lat": 51.05011,
+    "lng": -114.08529
+  },
+  "debden|saskatchewan�|canada": {
+    "lat": 53.5168,
+    "lng": -106.88444
+  },
+  "seine|france": {
+    "lat": 48.55743,
+    "lng": 2.55316
+  },
+  "caen|france": {
+    "lat": 49.18585,
+    "lng": -0.35912
+  },
+  "kassel|germany": {
+    "lat": 51.31667,
+    "lng": 9.5
+  },
+  "frankfurt|germany": {
+    "lat": 52.34714,
+    "lng": 14.55062
+  },
+  "hilo|hawaii|united states": {
+    "lat": 19.72991,
+    "lng": -155.09073
+  },
+  "kono|hawaii|united states": {
+    "lat": 8.58333,
+    "lng": 37.9
+  },
+  "honolulu|hawaii|united states": {
+    "lat": 21.30694,
+    "lng": -157.85834
+  },
+  "szentendre|hungry": {
+    "lat": 47.66943,
+    "lng": 19.07561
+  },
+  "chupicuaro|mexico": {
+    "lat": 20.00392,
+    "lng": -101.17047
+  },
+  "mexico city|mexico": {
+    "lat": 19.42847,
+    "lng": -99.12766
+  },
   "tangiers|morocco": {
     "lat": 35.76727,
     "lng": -5.79975
@@ -178,6 +246,10 @@
   "barcelona|catalonia|spain": {
     "lat": 41.38879,
     "lng": 2.15899
+  },
+  "torre del mar|spain": {
+    "lat": 36.742,
+    "lng": -4.09291
   },
   "bangkok|thailand": {
     "lat": 13.75398,

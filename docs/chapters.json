@@ -11,7 +11,7 @@
     "vicePresidentCell": "",
     "lat": 34.52509,
     "lng": -86.89473,
-    "geocodeNote": "cache"
+    "geocodeNote": "open-meteo"
   },
   {
     "id": 2,
@@ -39,7 +39,7 @@
     "vicePresidentCell": "",
     "lat": 33.30616,
     "lng": -111.84125,
-    "geocodeNote": "cache"
+    "geocodeNote": "open-meteo"
   },
   {
     "id": 4,
@@ -81,7 +81,7 @@
     "vicePresidentCell": "",
     "lat": 34.54002,
     "lng": -112.4685,
-    "geocodeNote": "cache"
+    "geocodeNote": "open-meteo"
   },
   {
     "id": 7,
@@ -109,7 +109,7 @@
     "vicePresidentCell": "",
     "lat": 35.48942,
     "lng": -120.67073,
-    "geocodeNote": "cache"
+    "geocodeNote": "open-meteo"
   },
   {
     "id": 9,
@@ -123,7 +123,7 @@
     "vicePresidentCell": "",
     "lat": 36.67774,
     "lng": -121.6555,
-    "geocodeNote": "cache"
+    "geocodeNote": "open-meteo"
   },
   {
     "id": 10,
@@ -151,7 +151,7 @@
     "vicePresidentCell": "",
     "lat": 36.82523,
     "lng": -119.70292,
-    "geocodeNote": "cache"
+    "geocodeNote": "open-meteo"
   },
   {
     "id": 12,
@@ -193,7 +193,7 @@
     "vicePresidentCell": "",
     "lat": 40.58654,
     "lng": -122.39168,
-    "geocodeNote": "cache"
+    "geocodeNote": "open-meteo"
   },
   {
     "id": 15,
@@ -277,7 +277,7 @@
     "vicePresidentCell": "",
     "lat": 27.24393,
     "lng": -80.82978,
-    "geocodeNote": "cache"
+    "geocodeNote": "open-meteo"
   },
   {
     "id": 21,
@@ -291,7 +291,7 @@
     "vicePresidentCell": "",
     "lat": 27.94752,
     "lng": -82.45843,
-    "geocodeNote": "cache"
+    "geocodeNote": "open-meteo"
   },
   {
     "id": 22,
@@ -305,7 +305,7 @@
     "vicePresidentCell": "",
     "lat": 33.96095,
     "lng": -83.37794,
-    "geocodeNote": "cache"
+    "geocodeNote": "open-meteo"
   },
   {
     "id": 23,
@@ -319,7 +319,7 @@
     "vicePresidentCell": "",
     "lat": 32.08354,
     "lng": -81.09983,
-    "geocodeNote": "cache"
+    "geocodeNote": "open-meteo"
   },
   {
     "id": 24,
@@ -333,7 +333,7 @@
     "vicePresidentCell": "",
     "lat": 34.86397,
     "lng": -84.32409,
-    "geocodeNote": "cache"
+    "geocodeNote": "open-meteo"
   },
   {
     "id": 25,
@@ -389,7 +389,7 @@
     "vicePresidentCell": "",
     "lat": 32.52515,
     "lng": -93.75018,
-    "geocodeNote": "cache"
+    "geocodeNote": "open-meteo"
   },
   {
     "id": 29,
@@ -431,7 +431,7 @@
     "vicePresidentCell": "",
     "lat": 47.97898,
     "lng": -122.20208,
-    "geocodeNote": "cache"
+    "geocodeNote": "open-meteo"
   },
   {
     "id": 32,
@@ -459,7 +459,7 @@
     "vicePresidentCell": "",
     "lat": 35.39931,
     "lng": -80.4359,
-    "geocodeNote": "cache"
+    "geocodeNote": "open-meteo"
   },
   {
     "id": 34,
@@ -487,7 +487,7 @@
     "vicePresidentCell": "",
     "lat": 47.31524,
     "lng": -95.96865,
-    "geocodeNote": "cache"
+    "geocodeNote": "open-meteo"
   },
   {
     "id": 36,
@@ -655,7 +655,7 @@
     "vicePresidentCell": "",
     "lat": 43.04812,
     "lng": -76.14742,
-    "geocodeNote": "cache"
+    "geocodeNote": "open-meteo"
   },
   {
     "id": 48,
@@ -767,7 +767,7 @@
     "vicePresidentCell": "",
     "lat": 36.29541,
     "lng": -80.14171,
-    "geocodeNote": "cache"
+    "geocodeNote": "open-meteo"
   },
   {
     "id": 56,
@@ -823,7 +823,7 @@
     "vicePresidentCell": "",
     "lat": 41.31366,
     "lng": -81.72457,
-    "geocodeNote": "cache"
+    "geocodeNote": "open-meteo"
   },
   {
     "id": 60,
@@ -851,7 +851,7 @@
     "vicePresidentCell": "XXX-XXX-XXXX",
     "lat": 35.91537,
     "lng": -94.96996,
-    "geocodeNote": "cache"
+    "geocodeNote": "open-meteo"
   },
   {
     "id": 62,
@@ -865,7 +865,7 @@
     "vicePresidentCell": "XXX-XXX-XXXX",
     "lat": 35.46756,
     "lng": -97.51643,
-    "geocodeNote": "cache"
+    "geocodeNote": "open-meteo"
   },
   {
     "id": 63,
@@ -879,7 +879,7 @@
     "vicePresidentCell": "",
     "lat": 40.49673,
     "lng": -80.60674,
-    "geocodeNote": "cache"
+    "geocodeNote": "open-meteo"
   },
   {
     "id": 64,
@@ -907,7 +907,7 @@
     "vicePresidentCell": "",
     "lat": 18.58333,
     "lng": -68.93333,
-    "geocodeNote": "cache"
+    "geocodeNote": "open-meteo"
   },
   {
     "id": 66,
@@ -991,7 +991,7 @@
     "vicePresidentCell": "",
     "lat": 36.54843,
     "lng": -82.56182,
-    "geocodeNote": "cache"
+    "geocodeNote": "open-meteo"
   },
   {
     "id": 72,
@@ -1005,7 +1005,7 @@
     "vicePresidentCell": "XXX-XXX-XXXX",
     "lat": 35.222,
     "lng": -101.8313,
-    "geocodeNote": "cache"
+    "geocodeNote": "open-meteo"
   },
   {
     "id": 73,
@@ -1019,7 +1019,7 @@
     "vicePresidentCell": "",
     "lat": 33.21484,
     "lng": -97.13307,
-    "geocodeNote": "cache"
+    "geocodeNote": "open-meteo"
   },
   {
     "id": 74,
@@ -1033,7 +1033,7 @@
     "vicePresidentCell": "",
     "lat": 30.26715,
     "lng": -97.74306,
-    "geocodeNote": "cache"
+    "geocodeNote": "open-meteo"
   },
   {
     "id": 75,
@@ -1047,7 +1047,7 @@
     "vicePresidentCell": "",
     "lat": 29.42412,
     "lng": -98.49363,
-    "geocodeNote": "cache"
+    "geocodeNote": "open-meteo"
   },
   {
     "id": 76,
@@ -1103,7 +1103,7 @@
     "vicePresidentCell": "",
     "lat": 47.18538,
     "lng": -122.2929,
-    "geocodeNote": "cache"
+    "geocodeNote": "open-meteo"
   },
   {
     "id": 80,
@@ -1117,7 +1117,7 @@
     "vicePresidentCell": "",
     "lat": 32.50931,
     "lng": -92.1193,
-    "geocodeNote": "cache"
+    "geocodeNote": "open-meteo"
   },
   {
     "id": 81,
@@ -1131,7 +1131,7 @@
     "vicePresidentCell": "",
     "lat": 47.65966,
     "lng": -117.42908,
-    "geocodeNote": "cache"
+    "geocodeNote": "open-meteo"
   },
   {
     "id": 82,
@@ -1187,7 +1187,7 @@
     "vicePresidentCell": "",
     "lat": 39.30927,
     "lng": -76.47496,
-    "geocodeNote": "cache"
+    "geocodeNote": "open-meteo"
   },
   {
     "id": 86,
@@ -1201,7 +1201,7 @@
     "vicePresidentCell": "",
     "lat": 47.15538,
     "lng": -122.43401,
-    "geocodeNote": "cache"
+    "geocodeNote": "open-meteo"
   },
   {
     "id": 87,
@@ -1215,7 +1215,7 @@
     "vicePresidentCell": "",
     "lat": 40.78788,
     "lng": -74.38821,
-    "geocodeNote": "cache"
+    "geocodeNote": "open-meteo"
   },
   {
     "id": 88,
@@ -1285,7 +1285,7 @@
     "vicePresidentCell": "",
     "lat": 45.83337,
     "lng": -82.33313,
-    "geocodeNote": "cache"
+    "geocodeNote": "open-meteo"
   },
   {
     "id": 93,
@@ -1327,7 +1327,7 @@
     "vicePresidentCell": "",
     "lat": 44.30012,
     "lng": -78.31623,
-    "geocodeNote": "cache"
+    "geocodeNote": "open-meteo"
   },
   {
     "id": 96,
@@ -1341,166 +1341,194 @@
     "vicePresidentCell": "",
     "lat": 53.55014,
     "lng": -113.46871,
-    "geocodeNote": "cache"
+    "geocodeNote": "open-meteo"
   },
   {
     "id": 97,
     "chapterName": "Kisiskaciwan",
-    "city": "",
+    "city": "Saskatoon",
     "stateRegion": "Saskatchewan�",
     "country": "Canada",
     "presidentName": "",
     "presidentCell": "",
     "vicePresidentName": "",
     "vicePresidentCell": "",
-    "lat": null,
-    "lng": null,
-    "geocodeNote": "not found"
+    "lat": 52.13238,
+    "lng": -106.66892,
+    "geocodeNote": "open-meteo"
   },
   {
     "id": 98,
     "chapterName": "Treaty 8",
-    "city": "",
-    "stateRegion": "",
+    "city": "Grande Prairie",
+    "stateRegion": "Alberta",
     "country": "Canada",
     "presidentName": "",
     "presidentCell": "",
     "vicePresidentName": "",
     "vicePresidentCell": "",
-    "lat": null,
-    "lng": null,
-    "geocodeNote": "not found"
+    "lat": 55.16667,
+    "lng": -118.80271,
+    "geocodeNote": "open-meteo"
   },
   {
     "id": 99,
     "chapterName": "Lheidli T'enneh",
-    "city": "",
-    "stateRegion": "",
+    "city": "Prince George",
+    "stateRegion": "British Columbia",
     "country": "Canada",
     "presidentName": "",
     "presidentCell": "",
     "vicePresidentName": "",
     "vicePresidentCell": "",
-    "lat": null,
-    "lng": null,
-    "geocodeNote": "not found"
+    "lat": 53.9166,
+    "lng": -122.75301,
+    "geocodeNote": "open-meteo"
   },
   {
     "id": 100,
     "chapterName": "Frog Lake",
-    "city": "",
+    "city": "Heinsburg",
     "stateRegion": "Alberta",
     "country": "Canada",
     "presidentName": "",
     "presidentCell": "",
     "vicePresidentName": "",
     "vicePresidentCell": "",
-    "lat": null,
-    "lng": null,
-    "geocodeNote": "not found"
+    "lat": 53.76687,
+    "lng": -110.51835,
+    "geocodeNote": "open-meteo"
   },
   {
     "id": 101,
     "chapterName": "Maskwacis",
-    "city": "",
+    "city": "Wetaskiwin",
     "stateRegion": "Alberta",
     "country": "Canada",
     "presidentName": "",
     "presidentCell": "",
     "vicePresidentName": "",
     "vicePresidentCell": "",
-    "lat": null,
-    "lng": null,
-    "geocodeNote": "not found"
+    "lat": 52.96683,
+    "lng": -113.36869,
+    "geocodeNote": "open-meteo"
   },
   {
     "id": 102,
     "chapterName": "Great Plains",
-    "city": "",
-    "stateRegion": "",
+    "city": "Calgary",
+    "stateRegion": "Alberta",
     "country": "Canada",
     "presidentName": "",
     "presidentCell": "",
     "vicePresidentName": "",
     "vicePresidentCell": "",
-    "lat": null,
-    "lng": null,
-    "geocodeNote": "not found"
+    "lat": 51.05011,
+    "lng": -114.08529,
+    "geocodeNote": "open-meteo"
   },
   {
     "id": 103,
     "chapterName": "\"Big River \"\"Prospective\"\"\"",
-    "city": "",
-    "stateRegion": "",
+    "city": "Debden",
+    "stateRegion": "Saskatchewan�",
     "country": "Canada",
     "presidentName": "",
     "presidentCell": "",
     "vicePresidentName": "",
     "vicePresidentCell": "",
-    "lat": null,
-    "lng": null,
-    "geocodeNote": "not found"
+    "lat": 53.5168,
+    "lng": -106.88444,
+    "geocodeNote": "open-meteo"
   },
   {
     "id": 104,
     "chapterName": "River's Cities",
-    "city": "",
+    "city": "Seine",
     "stateRegion": "",
     "country": "France",
     "presidentName": "",
     "presidentCell": "",
     "vicePresidentName": "",
     "vicePresidentCell": "",
-    "lat": null,
-    "lng": null,
-    "geocodeNote": "not found"
+    "lat": 48.55743,
+    "lng": 2.55316,
+    "geocodeNote": "open-meteo"
   },
   {
     "id": 105,
     "chapterName": "Noromaor",
-    "city": "",
+    "city": "Caen",
     "stateRegion": "",
     "country": "France",
     "presidentName": "",
     "presidentCell": "",
     "vicePresidentName": "",
     "vicePresidentCell": "",
-    "lat": null,
-    "lng": null,
-    "geocodeNote": "not found"
+    "lat": 49.18585,
+    "lng": -0.35912,
+    "geocodeNote": "open-meteo"
   },
   {
     "id": 106,
     "chapterName": "Nordhessen",
-    "city": "",
+    "city": "Kassel",
     "stateRegion": "",
     "country": "Germany",
     "presidentName": "",
     "presidentCell": "",
     "vicePresidentName": "",
     "vicePresidentCell": "",
-    "lat": null,
-    "lng": null,
-    "geocodeNote": "not found"
+    "lat": 51.31667,
+    "lng": 9.5,
+    "geocodeNote": "open-meteo"
   },
   {
     "id": 107,
     "chapterName": "White River",
-    "city": "",
+    "city": "Frankfurt",
     "stateRegion": "",
     "country": "Germany",
     "presidentName": "",
     "presidentCell": "",
     "vicePresidentName": "",
     "vicePresidentCell": "",
-    "lat": null,
-    "lng": null,
-    "geocodeNote": "not found"
+    "lat": 52.34714,
+    "lng": 14.55062,
+    "geocodeNote": "open-meteo"
   },
   {
     "id": 108,
     "chapterName": "Kanaka Maoli",
-    "city": "",
+    "city": "Hilo",
+    "stateRegion": "Hawaii",
+    "country": "United States",
+    "presidentName": "",
+    "presidentCell": "",
+    "vicePresidentName": "",
+    "vicePresidentCell": "",
+    "lat": 19.72991,
+    "lng": -155.09073,
+    "geocodeNote": "open-meteo"
+  },
+  {
+    "id": 109,
+    "chapterName": "MO'UI MOTO",
+    "city": "Kono",
+    "stateRegion": "Hawaii",
+    "country": "United States",
+    "presidentName": "",
+    "presidentCell": "",
+    "vicePresidentName": "",
+    "vicePresidentCell": "",
+    "lat": 8.58333,
+    "lng": 37.9,
+    "geocodeNote": "open-meteo"
+  },
+  {
+    "id": 110,
+    "chapterName": "Red Lava",
+    "city": "P?hoa",
     "stateRegion": "Hawaii",
     "country": "United States",
     "presidentName": "",
@@ -1509,91 +1537,63 @@
     "vicePresidentCell": "",
     "lat": null,
     "lng": null,
-    "geocodeNote": "not found"
-  },
-  {
-    "id": 109,
-    "chapterName": "MO'UI MOTO",
-    "city": "",
-    "stateRegion": "",
-    "country": "United States",
-    "presidentName": "",
-    "presidentCell": "",
-    "vicePresidentName": "",
-    "vicePresidentCell": "",
-    "lat": null,
-    "lng": null,
-    "geocodeNote": "not found"
-  },
-  {
-    "id": 110,
-    "chapterName": "Red Lava",
-    "city": "",
-    "stateRegion": "",
-    "country": "United States",
-    "presidentName": "",
-    "presidentCell": "",
-    "vicePresidentName": "",
-    "vicePresidentCell": "",
-    "lat": null,
-    "lng": null,
-    "geocodeNote": "not found"
+    "geocodeNote": "error: Nominatim error 403: <html>\n<head>\n<title>Access blocked</title>\n</head>\n<body>\n<h1>Access blocked</h1>\n\n<p>You have been blocked because you have violated the\n<a href=\"https://operations.osmfoundation.org/policies/nomina"
   },
   {
     "id": 111,
     "chapterName": "\"Kanaka Maoli Moku O Keawe \"\"Prospective\"\"\"",
-    "city": "",
-    "stateRegion": "",
+    "city": "Honolulu",
+    "stateRegion": "Hawaii",
     "country": "United States",
     "presidentName": "",
     "presidentCell": "",
     "vicePresidentName": "",
     "vicePresidentCell": "",
-    "lat": null,
-    "lng": null,
-    "geocodeNote": "not found"
+    "lat": 21.30694,
+    "lng": -157.85834,
+    "geocodeNote": "open-meteo"
   },
   {
     "id": 112,
     "chapterName": "\"Ulsicia Castra \"\"Prospective\"\"\"",
-    "city": "",
+    "city": "Szentendre",
     "stateRegion": "",
     "country": "Hungry",
     "presidentName": "",
     "presidentCell": "",
     "vicePresidentName": "",
     "vicePresidentCell": "",
-    "lat": null,
-    "lng": null,
-    "geocodeNote": "not found"
+    "lat": 47.66943,
+    "lng": 19.07561,
+    "geocodeNote": "open-meteo"
   },
   {
     "id": 113,
     "chapterName": "\"Chupicuaro \"\"Prospective\"\"\"",
-    "city": "",
+    "city": "Chupicuaro",
     "stateRegion": "",
     "country": "Mexico",
     "presidentName": "",
     "presidentCell": "",
     "vicePresidentName": "",
     "vicePresidentCell": "",
-    "lat": null,
-    "lng": null,
-    "geocodeNote": "not found"
+    "lat": 20.00392,
+    "lng": -101.17047,
+    "geocodeNote": "open-meteo"
   },
   {
     "id": 114,
     "chapterName": "Mexico City",
-    "city": "",
+    "city": "Mexico City",
     "stateRegion": "",
     "country": "Mexico",
     "presidentName": "",
     "presidentCell": "",
     "vicePresidentName": "",
     "vicePresidentCell": "",
-    "lat": null,
-    "lng": null,
-    "geocodeNote": "not found"
+    "lat": 19.42847,
+    "lng": -99.12766,
+    "geocodeNote": "open-meteo"
   },
   {
     "id": 115,
@@ -1607,7 +1607,7 @@
     "vicePresidentCell": "",
     "lat": 35.76727,
     "lng": -5.79975,
-    "geocodeNote": "cache"
+    "geocodeNote": "open-meteo"
   },
   {
     "id": 116,
@@ -1621,7 +1621,7 @@
     "vicePresidentCell": "",
     "lat": 33.58831,
     "lng": -7.61138,
-    "geocodeNote": "cache"
+    "geocodeNote": "open-meteo"
   },
   {
     "id": 117,
@@ -1635,7 +1635,7 @@
     "vicePresidentCell": "",
     "lat": 34.01325,
     "lng": -6.83255,
-    "geocodeNote": "cache"
+    "geocodeNote": "open-meteo"
   },
   {
     "id": 118,
@@ -1663,7 +1663,7 @@
     "vicePresidentCell": "",
     "lat": 34.26101,
     "lng": -6.5802,
-    "geocodeNote": "cache"
+    "geocodeNote": "open-meteo"
   },
   {
     "id": 120,
@@ -1677,7 +1677,7 @@
     "vicePresidentCell": "",
     "lat": -45.85,
     "lng": 168.76666,
-    "geocodeNote": "cache"
+    "geocodeNote": "open-meteo"
   },
   {
     "id": 121,
@@ -1691,7 +1691,7 @@
     "vicePresidentCell": "",
     "lat": -36.84853,
     "lng": 174.76349,
-    "geocodeNote": "cache"
+    "geocodeNote": "open-meteo"
   },
   {
     "id": 122,
@@ -1705,7 +1705,7 @@
     "vicePresidentCell": "",
     "lat": 1.28967,
     "lng": 103.85007,
-    "geocodeNote": "cache"
+    "geocodeNote": "open-meteo"
   },
   {
     "id": 123,
@@ -1719,26 +1719,26 @@
     "vicePresidentCell": "",
     "lat": 41.38879,
     "lng": 2.15899,
-    "geocodeNote": "cache"
+    "geocodeNote": "open-meteo"
   },
   {
     "id": 124,
     "chapterName": "\"Mainake \"\"Prospective\"\"\"",
-    "city": "",
+    "city": "Torre del Mar",
     "stateRegion": "",
     "country": "Spain",
     "presidentName": "",
     "presidentCell": "",
     "vicePresidentName": "",
     "vicePresidentCell": "",
-    "lat": null,
-    "lng": null,
-    "geocodeNote": "not found"
+    "lat": 36.742,
+    "lng": -4.09291,
+    "geocodeNote": "open-meteo"
   },
   {
     "id": 125,
     "chapterName": "Blackriver",
-    "city": "",
+    "city": "Svart�lven",
     "stateRegion": "",
     "country": "Sweden",
     "presidentName": "",
@@ -1747,7 +1747,7 @@
     "vicePresidentCell": "",
     "lat": null,
     "lng": null,
-    "geocodeNote": "not found"
+    "geocodeNote": "error: Nominatim error 403: <html>\n<head>\n<title>Access blocked</title>\n</head>\n<body>\n<h1>Access blocked</h1>\n\n<p>You have been blocked because you have violated the\n<a href=\"https://operations.osmfoundation.org/policies/nomina"
   },
   {
     "id": 126,
@@ -1761,7 +1761,7 @@
     "vicePresidentCell": "",
     "lat": 13.75398,
     "lng": 100.50144,
-    "geocodeNote": "cache"
+    "geocodeNote": "open-meteo"
   },
   {
     "id": 127,
