@@ -1626,21 +1626,21 @@
   {
     "id": 117,
     "chapterName": "Rabat",
-    "city": "",
+    "city": "Rabat",
     "stateRegion": "",
     "country": "Morocco",
     "presidentName": "",
     "presidentCell": "",
     "vicePresidentName": "",
     "vicePresidentCell": "",
-    "lat": null,
-    "lng": null,
-    "geocodeNote": "not found"
+    "lat": 34.01325,
+    "lng": -6.83255,
+    "geocodeNote": "open-meteo"
   },
   {
     "id": 118,
     "chapterName": "Sidirhal",
-    "city": "",
+    "city": "Sidi Rahal Chatai",
     "stateRegion": "",
     "country": "Morocco",
     "presidentName": "",
@@ -1649,63 +1649,63 @@
     "vicePresidentCell": "",
     "lat": null,
     "lng": null,
-    "geocodeNote": "not found"
+    "geocodeNote": "error: Nominatim error 403: <html>\n<head>\n<title>Access blocked</title>\n</head>\n<body>\n<h1>Access blocked</h1>\n\n<p>You have been blocked because you have violated the\n<a href=\"https://operations.osmfoundation.org/policies/nomina"
   },
   {
     "id": 119,
     "chapterName": "\"Kenitra \"\"Prospective\"\"\"",
-    "city": "",
+    "city": "Kenitra",
     "stateRegion": "",
     "country": "Morocco",
     "presidentName": "",
     "presidentCell": "",
     "vicePresidentName": "",
     "vicePresidentCell": "",
-    "lat": null,
-    "lng": null,
-    "geocodeNote": "not found"
+    "lat": 34.26101,
+    "lng": -6.5802,
+    "geocodeNote": "open-meteo"
   },
   {
     "id": 120,
     "chapterName": "Waipounamu",
-    "city": "",
+    "city": "Waipounamu",
     "stateRegion": "",
     "country": "New Zealand",
     "presidentName": "",
     "presidentCell": "",
     "vicePresidentName": "",
     "vicePresidentCell": "",
-    "lat": null,
-    "lng": null,
-    "geocodeNote": "not found"
+    "lat": -45.85,
+    "lng": 168.76666,
+    "geocodeNote": "open-meteo"
   },
   {
     "id": 121,
     "chapterName": "Auckland",
-    "city": "",
+    "city": "Auckland",
     "stateRegion": "",
     "country": "New Zealand",
     "presidentName": "",
     "presidentCell": "",
     "vicePresidentName": "",
     "vicePresidentCell": "",
-    "lat": null,
-    "lng": null,
-    "geocodeNote": "not found"
+    "lat": -36.84853,
+    "lng": 174.76349,
+    "geocodeNote": "open-meteo"
   },
   {
     "id": 122,
     "chapterName": "Lion Isle",
-    "city": "",
+    "city": "Singapore",
     "stateRegion": "",
     "country": "Singapore",
     "presidentName": "",
     "presidentCell": "",
     "vicePresidentName": "",
     "vicePresidentCell": "",
-    "lat": null,
-    "lng": null,
-    "geocodeNote": "not found"
+    "lat": 1.28967,
+    "lng": 103.85007,
+    "geocodeNote": "open-meteo"
   },
   {
     "id": 123,
@@ -1807,7 +1807,7 @@
   },
   {
     "id": 130,
-    "chapterName": "\"Venezuela \"\"Prosectiv\"\"\"",
+    "chapterName": "\"Venezuela \"\"Prosective\"\"\"",
     "city": "",
     "stateRegion": "",
     "country": "Venezuela",

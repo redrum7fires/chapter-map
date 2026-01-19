@@ -155,6 +155,26 @@
     "lat": 33.58831,
     "lng": -7.61138
   },
+  "rabat|morocco": {
+    "lat": 34.01325,
+    "lng": -6.83255
+  },
+  "kenitra|morocco": {
+    "lat": 34.26101,
+    "lng": -6.5802
+  },
+  "waipounamu|new zealand": {
+    "lat": -45.85,
+    "lng": 168.76666
+  },
+  "auckland|new zealand": {
+    "lat": -36.84853,
+    "lng": 174.76349
+  },
+  "singapore|singapore": {
+    "lat": 1.28967,
+    "lng": 103.85007
+  },
   "barcelona|catalonia|spain": {
     "lat": 41.38879,
     "lng": 2.15899
