@@ -182,5 +182,17 @@
   "bangkok|thailand": {
     "lat": 13.75398,
     "lng": 100.50144
+  },
+  "papeete|tahiti": {
+    "lat": -17.5347,
+    "lng": -149.56844
+  },
+  "london|united kingdom": {
+    "lat": 51.50853,
+    "lng": -0.12574
+  },
+  "nottingham|united kingdom": {
+    "lat": 52.9536,
+    "lng": -1.15047
   }
 }
