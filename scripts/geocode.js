@@ -1,13 +1,16 @@
 /**
- * Batch geocode chapters using Open-Meteo (FREE, no API key).
+ * Batch geocode chapters.
+ * Primary: Open-Meteo (FREE, no key)
+ * Fallback (only when not found): Nominatim (OpenStreetMap) with polite headers + throttle
+ *
  * Input : data/chapters.csv
  * Output: data/chapters.json
  * Cache : data/geocode-cache.json
  *
- * CSV required columns:
+ * Required CSV columns:
  *   ChapterName, City, StateRegion, Country
  *
- * CSV optional columns (for popup info):
+ * Optional CSV columns (popup):
  *   PresidentName, PresidentCell, VicePresidentName, VicePresidentCell
  *
  * Run:
@@ -28,28 +31,11 @@ const CSV_PATH = path.join(DATA_DIR, "chapters.csv");
 const OUT_JSON_PATH = path.join(DATA_DIR, "chapters.json");
 const CACHE_PATH = path.join(DATA_DIR, "geocode-cache.json");
 
-// Be polite; 200 chapters is fine.
-const REQUEST_DELAY_MS = 500;
+// Throttle requests (be polite)
+const REQUEST_DELAY_MS = 600;         // between geocode attempts
+const NOMINATIM_DELAY_MS = 900;       // extra delay before Nominatim fallback
 
 /* ----------------------------- helpers ----------------------------- */
-function normalizeCountryName(country) {
-  const c = (country || "").trim().toLowerCase();
-  if (c === "usa" || c === "us" || c === "u.s." || c === "u.s.a.") return "United States";
-  if (c === "uk" || c === "u.k.") return "United Kingdom";
-  return (country || "").trim();
-}
-
-// Maps country names to 2-letter codes for Open-Meteo country filter
-function countryToISO2(country) {
-  const c = normalizeCountryName(country).toLowerCase();
-  if (c === "united states") return "US";
-  if (c === "australia") return "AU";
-  if (c === "united kingdom") return "GB";
-  if (c === "germany") return "DE";
-  if (c === "canada") return "CA";
-  // add more as you need
-  return "";
-}
 
 function sleep(ms) {
   return new Promise((resolve) => setTimeout(resolve, ms));
@@ -64,13 +50,31 @@ function saveJson(filePath, data) {
   fs.writeFileSync(filePath, JSON.stringify(data, null, 2), "utf8");
 }
 
-function normalizeCountry(country) {
+function normalizeCountryName(country) {
   const c = (country || "").trim().toLowerCase();
-
   if (c === "usa" || c === "us" || c === "u.s." || c === "u.s.a.") return "United States";
   if (c === "uk" || c === "u.k.") return "United Kingdom";
-
   return (country || "").trim();
+}
+
+// ISO2 for Open-Meteo `country=` filter
+function countryToISO2(country) {
+  const c = normalizeCountryName(country).toLowerCase();
+  if (c === "united states") return "US";
+  if (c === "canada") return "CA";
+  if (c === "australia") return "AU";
+  if (c === "united kingdom") return "GB";
+  if (c === "germany") return "DE";
+  return "";
+}
+
+// Helps with Canadian county/station-style names
+function normalizePlaceName(city) {
+  let c = (city || "").trim();
+  c = c.replace(/\bCounty\b/gi, "").trim();
+  c = c.replace(/\bStation\b/gi, "").trim();
+  c = c.replace(/\s{2,}/g, " ");
+  return c;
 }
 
 function parseCsv(csvText) {
@@ -89,19 +93,17 @@ function parseCsv(csvText) {
     if (idx(col) === -1) throw new Error(`CSV missing required column: ${col}`);
   }
 
-  // Optional columns (may be missing in early test CSVs)
-  const opt = (col) => (idx(col) === -1 ? null : idx(col));
-
-  const pName = opt("PresidentName");
-  const pCell = opt("PresidentCell");
-  const vpName = opt("VicePresidentName");
-  const vpCell = opt("VicePresidentCell");
+  const optIndex = (col) => (idx(col) === -1 ? null : idx(col));
+  const pName = optIndex("PresidentName");
+  const pCell = optIndex("PresidentCell");
+  const vpName = optIndex("VicePresidentName");
+  const vpCell = optIndex("VicePresidentCell");
 
   return lines.map((line) => {
-    // NOTE: this assumes no commas inside values (no quoted commas).
+    // NOTE: Assumes no commas inside values (no quoted commas).
     const parts = line.split(",").map((p) => p.trim());
 
-    const country = normalizeCountry(parts[idx("Country")] || "");
+    const country = normalizeCountryName(parts[idx("Country")] || "");
 
     return {
       ChapterName: parts[idx("ChapterName")] || "",
@@ -109,7 +111,6 @@ function parseCsv(csvText) {
       StateRegion: parts[idx("StateRegion")] || "",
       Country: country,
 
-      // Optional officer fields
       PresidentName: pName !== null ? parts[pName] || "" : "",
       PresidentCell: pCell !== null ? parts[pCell] || "" : "",
       VicePresidentName: vpName !== null ? parts[vpName] || "" : "",
@@ -119,18 +120,19 @@ function parseCsv(csvText) {
 }
 
 function makeCacheKey({ City, StateRegion, Country }) {
-  const city = (City || "").trim().toLowerCase();
+  const city = normalizePlaceName(City).toLowerCase();
   const state = (StateRegion || "").trim().toLowerCase();
-  const country = normalizeCountry(Country).trim().toLowerCase();
+  const country = normalizeCountryName(Country).toLowerCase();
   return [city, state, country].filter(Boolean).join("|");
 }
 
 /* --------------------------- geocoding ---------------------------- */
 
+// Open-Meteo search: return several hits so we can pick best match
 async function openMeteoSearch(name, countryISO2 = "") {
   const url = new URL("https://geocoding-api.open-meteo.com/v1/search");
   url.searchParams.set("name", name);
-  url.searchParams.set("count", "5"); // ask for a few so we can validate the right one
+  url.searchParams.set("count", "5");
   url.searchParams.set("language", "en");
   url.searchParams.set("format", "json");
   if (countryISO2) url.searchParams.set("country", countryISO2);
@@ -144,23 +146,54 @@ async function openMeteoSearch(name, countryISO2 = "") {
   const data = await res.json();
   if (!data?.results?.length) return [];
 
-  return data.results.map(hit => ({
-    lat: Number(hit.latitude),
-    lng: Number(hit.longitude),
-    country: hit.country || "",
-    admin1: hit.admin1 || "",
-    name: hit.name || ""
-  })).filter(r => Number.isFinite(r.lat) && Number.isFinite(r.lng));
+  return data.results
+    .map((hit) => ({
+      lat: Number(hit.latitude),
+      lng: Number(hit.longitude),
+      country: hit.country || "",
+      admin1: hit.admin1 || "",
+      name: hit.name || ""
+    }))
+    .filter((r) => Number.isFinite(r.lat) && Number.isFinite(r.lng));
 }
 
+// Nominatim fallback (only used when Open-Meteo fails)
+async function geocodeNominatim(query) {
+  const url = new URL("https://nominatim.openstreetmap.org/search");
+  url.searchParams.set("q", query);
+  url.searchParams.set("format", "json");
+  url.searchParams.set("limit", "1");
 
-async function geocodeOpenMeteo({ City, StateRegion, Country }) {
-  const city = (City || "").trim();
-  const state = (StateRegion || "").trim();
-  const countryName = normalizeCountryName(Country);
+  const res = await fetch(url.toString(), {
+    headers: {
+      // Replace with your contact email (recommended by Nominatim usage guidance)
+      "User-Agent": "ChapterMapPrototype/1.0 (contact: you@example.com)"
+    }
+  });
+
+  if (!res.ok) {
+    const text = await res.text().catch(() => "");
+    throw new Error(`Nominatim error ${res.status}: ${text.slice(0, 200)}`);
+  }
+
+  const data = await res.json();
+  if (!Array.isArray(data) || data.length === 0) return null;
+
+  const hit = data[0];
+  const lat = Number(hit.lat);
+  const lng = Number(hit.lon);
+  if (!Number.isFinite(lat) || !Number.isFinite(lng)) return null;
+
+  return { lat, lng };
+}
+
+async function geocodeWithFallback(row) {
+  const city = normalizePlaceName(row.City);
+  const state = (row.StateRegion || "").trim();
+  const countryName = normalizeCountryName(row.Country);
   const iso2 = countryToISO2(countryName);
 
-  if (!city) return null;
+  if (!city || !countryName) return null;
 
   // Try stricter queries first
   const candidates = [
@@ -169,46 +202,39 @@ async function geocodeOpenMeteo({ City, StateRegion, Country }) {
     city
   ].filter(Boolean);
 
-  // We’ll accept a result only if it matches expected country,
-  // and if state provided, try to match admin1 too.
-  const expectedCountry = countryName.toLowerCase();
-  const expectedState = (state || "").toLowerCase();
-
+  // 1) Open-Meteo (with country filter if possible, then without)
   for (const q of candidates) {
-    // First try with country filter (if we have it), then without
-    const tries = iso2 ? [ {q, iso2}, {q, iso2: ""} ] : [ {q, iso2: ""} ];
+    const tries = iso2 ? [{ q, iso2 }, { q, iso2: "" }] : [{ q, iso2: "" }];
 
     for (const t of tries) {
-      const results = await openMeteoSearch(t.q, t.iso2);
-
-      // Pick the first result that matches expectations
-      const match = results.find(r => {
-        const rc = (r.country || "").toLowerCase();
-        const ra = (r.admin1 || "").toLowerCase();
-
-        const countryOk = !expectedCountry ? true : rc === expectedCountry;
-        const stateOk = !expectedState ? true : ra === expectedState;
-
-        // If they gave a state, require both. If no state, just country.
-        return expectedState ? (countryOk && stateOk) : countryOk;
-      });
-
-      if (match) return { lat: match.lat, lng: match.lng, queryUsed: t.q, filteredBy: t.iso2 || null };
-
-      // If nothing matches, keep looping to next query
+      const hits = await openMeteoSearch(t.q, t.iso2);
+      if (hits.length > 0) {
+        // Pick first hit; country filter already does most of the work.
+        return { lat: hits[0].lat, lng: hits[0].lng, source: "open-meteo", queryUsed: t.q };
+      }
     }
+  }
+
+  // 2) Nominatim fallback (only for misses)
+  await sleep(NOMINATIM_DELAY_MS);
+
+  const fallbackQueries = [
+    [city, state, countryName].filter(Boolean).join(", "),
+    [city, countryName].filter(Boolean).join(", ")
+  ];
+
+  for (const q of fallbackQueries) {
+    const r = await geocodeNominatim(q);
+    if (r) return { ...r, source: "nominatim", queryUsed: q };
   }
 
   return null;
 }
 
-
 /* ------------------------------ main ------------------------------ */
 
 async function main() {
-  if (!fs.existsSync(CSV_PATH)) {
-    throw new Error("data/chapters.csv not found");
-  }
+  if (!fs.existsSync(CSV_PATH)) throw new Error("data/chapters.csv not found");
 
   const csvText = fs.readFileSync(CSV_PATH, "utf8");
   const rows = parseCsv(csvText);
@@ -224,7 +250,6 @@ async function main() {
     const row = rows[i];
     const key = makeCacheKey(row);
 
-    // Always include officer fields in output, even if geocode fails
     const baseOut = {
       id: i + 1,
       chapterName: row.ChapterName,
@@ -240,23 +265,13 @@ async function main() {
 
     if (!key) {
       failures++;
-      output.push({
-        ...baseOut,
-        lat: null,
-        lng: null,
-        geocodeNote: "missing location data"
-      });
+      output.push({ ...baseOut, lat: null, lng: null, geocodeNote: "missing location data" });
       continue;
     }
 
     if (cache[key]) {
       cacheHits++;
-      output.push({
-        ...baseOut,
-        lat: cache[key].lat,
-        lng: cache[key].lng,
-        geocodeNote: "cache"
-      });
+      output.push({ ...baseOut, lat: cache[key].lat, lng: cache[key].lng, geocodeNote: "cache" });
       continue;
     }
 
@@ -266,28 +281,16 @@ async function main() {
 
     try {
       apiCalls++;
-      const result = await geocodeOpenMeteo(row);
+      const result = await geocodeWithFallback(row);
 
       if (!result) {
         failures++;
         console.log("NOT FOUND");
-        output.push({
-          ...baseOut,
-          lat: null,
-          lng: null,
-          geocodeNote: "not found"
-        });
+        output.push({ ...baseOut, lat: null, lng: null, geocodeNote: "not found" });
       } else {
-        console.log(`OK (${result.queryUsed})`);
-
+        console.log(`OK (${result.source})`);
         cache[key] = { lat: result.lat, lng: result.lng };
-
-        output.push({
-          ...baseOut,
-          lat: result.lat,
-          lng: result.lng,
-          geocodeNote: "open-meteo"
-        });
+        output.push({ ...baseOut, lat: result.lat, lng: result.lng, geocodeNote: result.source });
       }
     } catch (err) {
       failures++;

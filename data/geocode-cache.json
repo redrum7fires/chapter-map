@@ -52,8 +52,12 @@
     "lng": -93.75018
   },
   "everett|massachusetts|united states": {
-    "lat": 42.40843,
-    "lng": -71.05366
+    "lat": 47.97898,
+    "lng": -122.20208
+  },
+  "mt pleasant|michigan|united states": {
+    "lat": 35.39931,
+    "lng": -80.4359
   },
   "mahnomen|minnesota|united states": {
     "lat": 47.31524,
@@ -80,8 +84,12 @@
     "lng": -97.51643
   },
   "new cumberland|pennsylvania|united states": {
-    "lat": 40.23231,
-    "lng": -76.8847
+    "lat": 40.49673,
+    "lng": -80.60674
+  },
+  "borinquen|puerto rico|united states": {
+    "lat": 18.58333,
+    "lng": -68.93333
   },
   "kingsport|tennessee|united states": {
     "lat": 36.54843,
@@ -107,6 +115,10 @@
     "lat": 47.18538,
     "lng": -122.2929
   },
+  "monroe|washington|united states": {
+    "lat": 32.50931,
+    "lng": -92.1193
+  },
   "spokan|washington|united states": {
     "lat": 47.65966,
     "lng": -117.42908
@@ -114,5 +126,17 @@
   "barcelona|catalonia|spain": {
     "lat": 41.38879,
     "lng": 2.15899
+  },
+  "essex|ontario|canada": {
+    "lat": 39.30927,
+    "lng": -76.47496
+  },
+  "parkland|alberta|canada": {
+    "lat": 47.15538,
+    "lng": -122.43401
+  },
+  "afton|nova scotia|canada": {
+    "lat": 40.78788,
+    "lng": -74.38821
   }
 }

@@ -429,8 +429,8 @@
     "presidentCell": "",
     "vicePresidentName": "",
     "vicePresidentCell": "",
-    "lat": 42.40843,
-    "lng": -71.05366,
+    "lat": 47.97898,
+    "lng": -122.20208,
     "geocodeNote": "open-meteo"
   },
   {
@@ -457,9 +457,9 @@
     "presidentCell": "",
     "vicePresidentName": "",
     "vicePresidentCell": "",
-    "lat": null,
-    "lng": null,
-    "geocodeNote": "not found"
+    "lat": 35.39931,
+    "lng": -80.4359,
+    "geocodeNote": "open-meteo"
   },
   {
     "id": 34,
@@ -781,7 +781,7 @@
     "vicePresidentCell": "",
     "lat": null,
     "lng": null,
-    "geocodeNote": "not found"
+    "geocodeNote": "error: Nominatim error 403: <html>\n<head>\n<title>Access blocked</title>\n</head>\n<body>\n<h1>Access blocked</h1>\n\n<p>You have been blocked because you have violated the\n<a href=\"https://operations.osmfoundation.org/policies/nomina"
   },
   {
     "id": 57,
@@ -877,8 +877,8 @@
     "presidentCell": "",
     "vicePresidentName": "",
     "vicePresidentCell": "",
-    "lat": 40.23231,
-    "lng": -76.8847,
+    "lat": 40.49673,
+    "lng": -80.60674,
     "geocodeNote": "open-meteo"
   },
   {
@@ -905,9 +905,9 @@
     "presidentCell": "",
     "vicePresidentName": "",
     "vicePresidentCell": "",
-    "lat": null,
-    "lng": null,
-    "geocodeNote": "not found"
+    "lat": 18.58333,
+    "lng": -68.93333,
+    "geocodeNote": "open-meteo"
   },
   {
     "id": 66,
@@ -1115,9 +1115,9 @@
     "presidentCell": "",
     "vicePresidentName": "",
     "vicePresidentCell": "",
-    "lat": null,
-    "lng": null,
-    "geocodeNote": "not found"
+    "lat": 32.50931,
+    "lng": -92.1193,
+    "geocodeNote": "open-meteo"
   },
   {
     "id": 81,
@@ -1185,9 +1185,9 @@
     "presidentCell": "",
     "vicePresidentName": "",
     "vicePresidentCell": "",
-    "lat": null,
-    "lng": null,
-    "geocodeNote": "not found"
+    "lat": 39.30927,
+    "lng": -76.47496,
+    "geocodeNote": "open-meteo"
   },
   {
     "id": 86,
@@ -1199,9 +1199,9 @@
     "presidentCell": "",
     "vicePresidentName": "",
     "vicePresidentCell": "",
-    "lat": null,
-    "lng": null,
-    "geocodeNote": "not found"
+    "lat": 47.15538,
+    "lng": -122.43401,
+    "geocodeNote": "open-meteo"
   },
   {
     "id": 87,
@@ -1213,8 +1213,8 @@
     "presidentCell": "",
     "vicePresidentName": "",
     "vicePresidentCell": "",
-    "lat": null,
-    "lng": null,
-    "geocodeNote": "not found"
+    "lat": 40.78788,
+    "lng": -74.38821,
+    "geocodeNote": "open-meteo"
   }
 ]
