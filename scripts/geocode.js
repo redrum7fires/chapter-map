@@ -32,6 +32,24 @@ const CACHE_PATH = path.join(DATA_DIR, "geocode-cache.json");
 const REQUEST_DELAY_MS = 500;
 
 /* ----------------------------- helpers ----------------------------- */
+function normalizeCountryName(country) {
+  const c = (country || "").trim().toLowerCase();
+  if (c === "usa" || c === "us" || c === "u.s." || c === "u.s.a.") return "United States";
+  if (c === "uk" || c === "u.k.") return "United Kingdom";
+  return (country || "").trim();
+}
+
+// Maps country names to 2-letter codes for Open-Meteo country filter
+function countryToISO2(country) {
+  const c = normalizeCountryName(country).toLowerCase();
+  if (c === "united states") return "US";
+  if (c === "australia") return "AU";
+  if (c === "united kingdom") return "GB";
+  if (c === "germany") return "DE";
+  if (c === "canada") return "CA";
+  // add more as you need
+  return "";
+}
 
 function sleep(ms) {
   return new Promise((resolve) => setTimeout(resolve, ms));
@@ -109,12 +127,13 @@ function makeCacheKey({ City, StateRegion, Country }) {
 
 /* --------------------------- geocoding ---------------------------- */
 
-async function openMeteoSearch(name) {
+async function openMeteoSearch(name, countryISO2 = "") {
   const url = new URL("https://geocoding-api.open-meteo.com/v1/search");
   url.searchParams.set("name", name);
-  url.searchParams.set("count", "1");
+  url.searchParams.set("count", "5"); // ask for a few so we can validate the right one
   url.searchParams.set("language", "en");
   url.searchParams.set("format", "json");
+  if (countryISO2) url.searchParams.set("country", countryISO2);
 
   const res = await fetch(url.toString());
   if (!res.ok) {
@@ -123,37 +142,66 @@ async function openMeteoSearch(name) {
   }
 
   const data = await res.json();
-  if (!data?.results?.length) return null;
+  if (!data?.results?.length) return [];
 
-  const hit = data.results[0];
-  const lat = Number(hit.latitude);
-  const lng = Number(hit.longitude);
-  if (!Number.isFinite(lat) || !Number.isFinite(lng)) return null;
-
-  return { lat, lng };
+  return data.results.map(hit => ({
+    lat: Number(hit.latitude),
+    lng: Number(hit.longitude),
+    country: hit.country || "",
+    admin1: hit.admin1 || "",
+    name: hit.name || ""
+  })).filter(r => Number.isFinite(r.lat) && Number.isFinite(r.lng));
 }
+
 
 async function geocodeOpenMeteo({ City, StateRegion, Country }) {
   const city = (City || "").trim();
   const state = (StateRegion || "").trim();
-  const country = normalizeCountry(Country);
+  const countryName = normalizeCountryName(Country);
+  const iso2 = countryToISO2(countryName);
 
-  if (!city || !country) return null;
+  if (!city) return null;
 
-  // Best-to-worst query formats:
+  // Try stricter queries first
   const candidates = [
-    [city, state, country].filter(Boolean).join(", "),
-    [city, country].filter(Boolean).join(", "),
+    [city, state, countryName].filter(Boolean).join(", "),
+    [city, countryName].filter(Boolean).join(", "),
     city
   ].filter(Boolean);
 
+  // We’ll accept a result only if it matches expected country,
+  // and if state provided, try to match admin1 too.
+  const expectedCountry = countryName.toLowerCase();
+  const expectedState = (state || "").toLowerCase();
+
   for (const q of candidates) {
-    const result = await openMeteoSearch(q);
-    if (result) return { ...result, queryUsed: q };
+    // First try with country filter (if we have it), then without
+    const tries = iso2 ? [ {q, iso2}, {q, iso2: ""} ] : [ {q, iso2: ""} ];
+
+    for (const t of tries) {
+      const results = await openMeteoSearch(t.q, t.iso2);
+
+      // Pick the first result that matches expectations
+      const match = results.find(r => {
+        const rc = (r.country || "").toLowerCase();
+        const ra = (r.admin1 || "").toLowerCase();
+
+        const countryOk = !expectedCountry ? true : rc === expectedCountry;
+        const stateOk = !expectedState ? true : ra === expectedState;
+
+        // If they gave a state, require both. If no state, just country.
+        return expectedState ? (countryOk && stateOk) : countryOk;
+      });
+
+      if (match) return { lat: match.lat, lng: match.lng, queryUsed: t.q, filteredBy: t.iso2 || null };
+
+      // If nothing matches, keep looping to next query
+    }
   }
 
   return null;
 }
+
 
 /* ------------------------------ main ------------------------------ */
 

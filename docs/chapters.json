@@ -11,7 +11,7 @@
     "vicePresidentCell": "",
     "lat": 34.52509,
     "lng": -86.89473,
-    "geocodeNote": "cache"
+    "geocodeNote": "open-meteo"
   },
   {
     "id": 2,
@@ -81,7 +81,7 @@
     "vicePresidentCell": "",
     "lat": 34.54002,
     "lng": -112.4685,
-    "geocodeNote": "cache"
+    "geocodeNote": "open-meteo"
   },
   {
     "id": 7,
@@ -109,7 +109,7 @@
     "vicePresidentCell": "",
     "lat": 35.48942,
     "lng": -120.67073,
-    "geocodeNote": "cache"
+    "geocodeNote": "open-meteo"
   },
   {
     "id": 9,
@@ -277,7 +277,7 @@
     "vicePresidentCell": "",
     "lat": 27.24393,
     "lng": -80.82978,
-    "geocodeNote": "cache"
+    "geocodeNote": "open-meteo"
   },
   {
     "id": 21,
@@ -291,7 +291,7 @@
     "vicePresidentCell": "",
     "lat": 27.94752,
     "lng": -82.45843,
-    "geocodeNote": "cache"
+    "geocodeNote": "open-meteo"
   },
   {
     "id": 22,
@@ -303,9 +303,9 @@
     "presidentCell": "",
     "vicePresidentName": "",
     "vicePresidentCell": "",
-    "lat": 37.98376,
-    "lng": 23.72784,
-    "geocodeNote": "cache"
+    "lat": 33.96095,
+    "lng": -83.37794,
+    "geocodeNote": "open-meteo"
   },
   {
     "id": 23,
@@ -319,7 +319,7 @@
     "vicePresidentCell": "",
     "lat": 32.08354,
     "lng": -81.09983,
-    "geocodeNote": "cache"
+    "geocodeNote": "open-meteo"
   },
   {
     "id": 24,
@@ -333,7 +333,7 @@
     "vicePresidentCell": "",
     "lat": 34.86397,
     "lng": -84.32409,
-    "geocodeNote": "cache"
+    "geocodeNote": "open-meteo"
   },
   {
     "id": 25,
@@ -389,7 +389,7 @@
     "vicePresidentCell": "",
     "lat": 32.52515,
     "lng": -93.75018,
-    "geocodeNote": "cache"
+    "geocodeNote": "open-meteo"
   },
   {
     "id": 29,
@@ -429,8 +429,8 @@
     "presidentCell": "",
     "vicePresidentName": "",
     "vicePresidentCell": "",
-    "lat": 47.97898,
-    "lng": -122.20208,
+    "lat": 42.40843,
+    "lng": -71.05366,
     "geocodeNote": "open-meteo"
   },
   {
@@ -457,9 +457,9 @@
     "presidentCell": "",
     "vicePresidentName": "",
     "vicePresidentCell": "",
-    "lat": 35.39931,
-    "lng": -80.4359,
-    "geocodeNote": "cache"
+    "lat": null,
+    "lng": null,
+    "geocodeNote": "not found"
   },
   {
     "id": 34,
@@ -655,7 +655,7 @@
     "vicePresidentCell": "",
     "lat": 43.04812,
     "lng": -76.14742,
-    "geocodeNote": "cache"
+    "geocodeNote": "open-meteo"
   },
   {
     "id": 48,
@@ -767,7 +767,7 @@
     "vicePresidentCell": "",
     "lat": 36.29541,
     "lng": -80.14171,
-    "geocodeNote": "cache"
+    "geocodeNote": "open-meteo"
   },
   {
     "id": 56,
@@ -851,7 +851,7 @@
     "vicePresidentCell": "XXX-XXX-XXXX",
     "lat": 35.91537,
     "lng": -94.96996,
-    "geocodeNote": "cache"
+    "geocodeNote": "open-meteo"
   },
   {
     "id": 62,
@@ -865,7 +865,7 @@
     "vicePresidentCell": "XXX-XXX-XXXX",
     "lat": 35.46756,
     "lng": -97.51643,
-    "geocodeNote": "cache"
+    "geocodeNote": "open-meteo"
   },
   {
     "id": 63,
@@ -877,8 +877,8 @@
     "presidentCell": "",
     "vicePresidentName": "",
     "vicePresidentCell": "",
-    "lat": 40.49673,
-    "lng": -80.60674,
+    "lat": 40.23231,
+    "lng": -76.8847,
     "geocodeNote": "open-meteo"
   },
   {
@@ -905,9 +905,9 @@
     "presidentCell": "",
     "vicePresidentName": "",
     "vicePresidentCell": "",
-    "lat": 18.58333,
-    "lng": -68.93333,
-    "geocodeNote": "cache"
+    "lat": null,
+    "lng": null,
+    "geocodeNote": "not found"
   },
   {
     "id": 66,
@@ -991,7 +991,7 @@
     "vicePresidentCell": "",
     "lat": 36.54843,
     "lng": -82.56182,
-    "geocodeNote": "cache"
+    "geocodeNote": "open-meteo"
   },
   {
     "id": 72,
@@ -1005,7 +1005,7 @@
     "vicePresidentCell": "XXX-XXX-XXXX",
     "lat": 35.222,
     "lng": -101.8313,
-    "geocodeNote": "cache"
+    "geocodeNote": "open-meteo"
   },
   {
     "id": 73,
@@ -1019,7 +1019,7 @@
     "vicePresidentCell": "",
     "lat": 33.21484,
     "lng": -97.13307,
-    "geocodeNote": "cache"
+    "geocodeNote": "open-meteo"
   },
   {
     "id": 74,
@@ -1033,7 +1033,7 @@
     "vicePresidentCell": "",
     "lat": 30.26715,
     "lng": -97.74306,
-    "geocodeNote": "cache"
+    "geocodeNote": "open-meteo"
   },
   {
     "id": 75,
@@ -1047,7 +1047,7 @@
     "vicePresidentCell": "",
     "lat": 29.42412,
     "lng": -98.49363,
-    "geocodeNote": "cache"
+    "geocodeNote": "open-meteo"
   },
   {
     "id": 76,
@@ -1115,9 +1115,9 @@
     "presidentCell": "",
     "vicePresidentName": "",
     "vicePresidentCell": "",
-    "lat": 32.50931,
-    "lng": -92.1193,
-    "geocodeNote": "open-meteo"
+    "lat": null,
+    "lng": null,
+    "geocodeNote": "not found"
   },
   {
     "id": 81,
@@ -1173,7 +1173,7 @@
     "vicePresidentCell": "",
     "lat": 41.38879,
     "lng": 2.15899,
-    "geocodeNote": "cache"
+    "geocodeNote": "open-meteo"
   },
   {
     "id": 85,
@@ -1185,9 +1185,9 @@
     "presidentCell": "",
     "vicePresidentName": "",
     "vicePresidentCell": "",
-    "lat": 39.30927,
-    "lng": -76.47496,
-    "geocodeNote": "open-meteo"
+    "lat": null,
+    "lng": null,
+    "geocodeNote": "not found"
   },
   {
     "id": 86,
