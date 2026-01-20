@@ -897,16 +897,16 @@
   },
   {
     "id": 65,
-    "chapterName": "Kanaka Maoli (Oahu)",
-    "city": "Hilo",
+    "chapterName": "Kanaka Maoli  (Oahu)",
+    "city": "Honolulu",
     "stateRegion": "Hawaii",
     "country": "United States",
     "presidentName": "",
     "presidentCell": "",
     "vicePresidentName": "",
     "vicePresidentCell": "",
-    "lat": 19.72991,
-    "lng": -155.09073,
+    "lat": 21.30694,
+    "lng": -157.85834,
     "geocodeNote": "cache"
   },
   {
@@ -949,7 +949,7 @@
     "vicePresidentCell": "",
     "lat": 19.64016,
     "lng": -155.99911,
-    "geocodeNote": "open-meteo"
+    "geocodeNote": "cache"
   },
   {
     "id": 69,
@@ -1481,7 +1481,7 @@
     "vicePresidentCell": "",
     "lat": 41.4995,
     "lng": -81.69541,
-    "geocodeNote": "open-meteo"
+    "geocodeNote": "cache"
   },
   {
     "id": 107,
