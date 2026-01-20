@@ -526,5 +526,9 @@
   "uncasville|ct|united states": {
     "lat": 41.43454,
     "lng": -72.1098
+  },
+  "tulsa|oklahoma|united states": {
+    "lat": 36.15398,
+    "lng": -95.99277
   }
 }

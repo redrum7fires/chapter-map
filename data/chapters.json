@@ -781,7 +781,7 @@
     "vicePresidentCell": "",
     "lat": 41.43454,
     "lng": -72.1098,
-    "geocodeNote": "open-meteo"
+    "geocodeNote": "cache"
   },
   {
     "id": 57,
@@ -1500,16 +1500,16 @@
   {
     "id": 108,
     "chapterName": "Seven Fires",
-    "city": "Tahlequah",
+    "city": "Tulsa",
     "stateRegion": "Oklahoma",
     "country": "United States",
     "presidentName": "",
     "presidentCell": "",
     "vicePresidentName": "",
     "vicePresidentCell": "",
-    "lat": 35.91537,
-    "lng": -94.96996,
-    "geocodeNote": "cache"
+    "lat": 36.15398,
+    "lng": -95.99277,
+    "geocodeNote": "open-meteo"
   },
   {
     "id": 109,
