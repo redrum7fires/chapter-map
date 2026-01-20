@@ -1,15 +1,179 @@
 {
+  "longreach|queensland|australia": {
+    "lat": -23.44212,
+    "lng": 144.2492
+  },
+  "tournai|wallonia|belgium": {
+    "lat": 50.60715,
+    "lng": 3.38932
+  },
+  "sao paulo|san paulo|brazil": {
+    "lat": -23.5475,
+    "lng": -46.63611
+  },
+  "ubatuba|san paulo|brazil": {
+    "lat": -23.43389,
+    "lng": -45.07111
+  },
+  "edmonton|alberta|canada": {
+    "lat": 53.55014,
+    "lng": -113.46871
+  },
+  "grande prairie|alberta|canada": {
+    "lat": 55.16667,
+    "lng": -118.80271
+  },
+  "heinsburg|alberta|canada": {
+    "lat": 53.76687,
+    "lng": -110.51835
+  },
+  "wetaskiwin|alberta|canada": {
+    "lat": 52.96683,
+    "lng": -113.36869
+  },
+  "calgary|manitoba|canada": {
+    "lat": 51.05011,
+    "lng": -114.08529
+  },
+  "nanaimo|british columbia|canada": {
+    "lat": 49.16638,
+    "lng": -123.94003
+  },
+  "prince george|british columbia|canada": {
+    "lat": 53.9166,
+    "lng": -122.75301
+  },
+  "afton|nova scotia|canada": {
+    "lat": 40.78788,
+    "lng": -74.38821
+  },
+  "essex|ontario|canada": {
+    "lat": 39.30927,
+    "lng": -76.47496
+  },
+  "manitoulin island|ontario|canada": {
+    "lat": 45.83337,
+    "lng": -82.33313
+  },
+  "hamilton|ontario|canada": {
+    "lat": 43.25011,
+    "lng": -79.84963
+  },
+  "peterborough|ontario|canada": {
+    "lat": 44.30012,
+    "lng": -78.31623
+  },
+  "saskatoon|saskatchewan�|canada": {
+    "lat": 52.13238,
+    "lng": -106.66892
+  },
+  "debden|alberta|canada": {
+    "lat": 53.5168,
+    "lng": -106.88444
+  },
+  "paris|paris|france": {
+    "lat": 48.85341,
+    "lng": 2.3488
+  },
+  "caen|normandy|france": {
+    "lat": 49.18585,
+    "lng": -0.35912
+  },
+  "kassel|hesse|germany": {
+    "lat": 51.31667,
+    "lng": 9.5
+  },
+  "frankfurt|hesse|germany": {
+    "lat": 52.34714,
+    "lng": 14.55062
+  },
+  "szentendre|central|hungry": {
+    "lat": 47.66943,
+    "lng": 19.07561
+  },
+  "chupicuaro|guanajuato|mexico": {
+    "lat": 20.00392,
+    "lng": -101.17047
+  },
+  "mexico city|mexico city|mexico": {
+    "lat": 19.42847,
+    "lng": -99.12766
+  },
+  "tangiers|tanger-t�touan-al hoceima|morocco": {
+    "lat": 35.76727,
+    "lng": -5.79975
+  },
+  "casablanca|casablanca-settat|morocco": {
+    "lat": 33.58831,
+    "lng": -7.61138
+  },
+  "rabat|rabat-sal�-k�nitra|morocco": {
+    "lat": 34.01325,
+    "lng": -6.83255
+  },
+  "waipounamu|south island|new zealand": {
+    "lat": -45.85,
+    "lng": 168.76666
+  },
+  "singapore|singapore": {
+    "lat": 1.28967,
+    "lng": 103.85007
+  },
+  "alguaire|catalonia|spain": {
+    "lat": 41.73703,
+    "lng": 0.5845
+  },
+  "barcelona|catalonia|spain": {
+    "lat": 41.38879,
+    "lng": 2.15899
+  },
+  "torre del mar|axarqu�a|spain": {
+    "lat": 36.742,
+    "lng": -4.09291
+  },
+  "papeete|tahiti": {
+    "lat": -17.5347,
+    "lng": -149.56844
+  },
+  "bangkok|thailand|thailand": {
+    "lat": 13.75398,
+    "lng": 100.50144
+  },
+  "london|greater london|united kingdom": {
+    "lat": 51.50853,
+    "lng": -0.12574
+  },
+  "nottingham|east midlands|united kingdom": {
+    "lat": 52.9536,
+    "lng": -1.15047
+  },
   "priceville|alabama|united states": {
     "lat": 34.52509,
     "lng": -86.89473
+  },
+  "phoenix|arizona|united states": {
+    "lat": 33.44838,
+    "lng": -112.07404
   },
   "chandler|arizona|united states": {
     "lat": 33.30616,
     "lng": -111.84125
   },
+  "window rock|arizona|united states": {
+    "lat": 35.68057,
+    "lng": -109.05259
+  },
+  "tucson|arizona|united states": {
+    "lat": 32.22174,
+    "lng": -110.92648
+  },
   "prescott|arizona|united states": {
     "lat": 34.54002,
     "lng": -112.4685
+  },
+  "scottsdale|arizona|united states": {
+    "lat": 33.50921,
+    "lng": -111.89903
   },
   "atascadero|california|united states": {
     "lat": 35.48942,
@@ -19,13 +183,37 @@
     "lat": 36.67774,
     "lng": -121.6555
   },
+  "san bernardino|california|united states": {
+    "lat": 34.10834,
+    "lng": -117.28977
+  },
   "clovis|california|united states": {
     "lat": 36.82523,
     "lng": -119.70292
   },
+  "san diego|california|united states": {
+    "lat": 32.71571,
+    "lng": -117.16472
+  },
   "redding|california|united states": {
     "lat": 40.58654,
     "lng": -122.39168
+  },
+  "ventura|california|united states": {
+    "lat": 34.27834,
+    "lng": -119.29317
+  },
+  "el segundo|california|united states": {
+    "lat": 33.91918,
+    "lng": -118.41647
+  },
+  "sacramento|california|united states": {
+    "lat": 38.58157,
+    "lng": -121.4944
+  },
+  "millsboro|delaware|united states": {
+    "lat": 38.5915,
+    "lng": -75.2913
   },
   "okeechobee|florida|united states": {
     "lat": 27.24393,
@@ -35,9 +223,9 @@
     "lat": 27.94752,
     "lng": -82.45843
   },
-  "athens|georgia|united states": {
-    "lat": 33.96095,
-    "lng": -83.37794
+  "port mayaca|florida|united states": {
+    "lat": 26.98644,
+    "lng": -80.60617
   },
   "savannah|georgia|united states": {
     "lat": 32.08354,
@@ -47,17 +235,69 @@
     "lat": 34.86397,
     "lng": -84.32409
   },
+  "athens|georgia|united states": {
+    "lat": 33.96095,
+    "lng": -83.37794
+  },
+  "hilo|hawaii|united states": {
+    "lat": 19.72991,
+    "lng": -155.09073
+  },
+  "kono|hawaii|united states": {
+    "lat": 8.58333,
+    "lng": 37.9
+  },
+  "honolulu|hawaii|united states": {
+    "lat": 21.30694,
+    "lng": -157.85834
+  },
+  "sullivan|indiana|united states": {
+    "lat": 39.59948,
+    "lng": -88.60784
+  },
+  "lafayette|indiana|united states": {
+    "lat": 30.22409,
+    "lng": -92.01984
+  },
+  "ravenswood|indiana|united states": {
+    "lat": 38.94814,
+    "lng": -81.76096
+  },
+  "pontoon beach|illinois|united states": {
+    "lat": 38.73172,
+    "lng": -90.08038
+  },
   "shreveport|louisiana|united states": {
     "lat": 32.52515,
     "lng": -93.75018
+  },
+  "bangor|maine|united states": {
+    "lat": 44.79884,
+    "lng": -68.77265
+  },
+  "crofton|maryland|united states": {
+    "lat": 39.00178,
+    "lng": -76.68747
+  },
+  "worton|maryland|united states": {
+    "lat": 39.27455,
+    "lng": -76.09217
   },
   "everett|massachusetts|united states": {
     "lat": 47.97898,
     "lng": -122.20208
   },
+  "mashpee|massachusetts|united states": {
+    "lat": 41.64844,
+    "lng": -70.48114
+  },
   "mt pleasant|michigan|united states": {
     "lat": 35.39931,
     "lng": -80.4359
+  },
+  "jackson|michigan|united states": {
+    "lat": 32.29876,
+    "lng": -90.18481
   },
   "mahnomen|minnesota|united states": {
     "lat": 47.31524,
@@ -71,6 +311,30 @@
     "lat": 42.87278,
     "lng": -100.55097
   },
+  "las vegas|nevada|united states": {
+    "lat": 36.17497,
+    "lng": -115.13722
+  },
+  "tonopah|nevada|united states": {
+    "lat": 38.06716,
+    "lng": -117.23008
+  },
+  "princeton|new jersey|united states": {
+    "lat": 38.35532,
+    "lng": -87.56752
+  },
+  "medford|new jersey|united states": {
+    "lat": 42.32652,
+    "lng": -122.87559
+  },
+  "raritan|new jersey|united states": {
+    "lat": 40.57427,
+    "lng": -74.60988
+  },
+  "new york city|new york|united states": {
+    "lat": 40.71427,
+    "lng": -74.00597
+  },
   "brooklyn|new york|united states": {
     "lat": 40.6501,
     "lng": -73.94958
@@ -83,9 +347,13 @@
     "lat": 43.04812,
     "lng": -76.14742
   },
-  "geneseo|new york|united states": {
-    "lat": 42.7959,
-    "lng": -77.81695
+  "albany|new york|united states": {
+    "lat": 42.65258,
+    "lng": -73.75623
+  },
+  "bronx|new york|united states": {
+    "lat": 40.84985,
+    "lng": -73.86641
   },
   "niagra|new york|united states": {
     "lat": 37.92277,
@@ -107,9 +375,17 @@
     "lat": 42.74943,
     "lng": -95.55167
   },
+  "columbia|north carolina|united states": {
+    "lat": 34.00071,
+    "lng": -81.03481
+  },
   "north royalton|ohio|united states": {
     "lat": 41.31366,
     "lng": -81.72457
+  },
+  "bowling green|ohio|united states": {
+    "lat": 36.99032,
+    "lng": -86.4436
   },
   "tahlequah|oklahoma|united states": {
     "lat": 35.91537,
@@ -159,6 +435,10 @@
     "lat": 29.42412,
     "lng": -98.49363
   },
+  "tabiona|utah|united states": {
+    "lat": 40.35444,
+    "lng": -110.71008
+  },
   "courtland|virginia|united states": {
     "lat": 36.71626,
     "lng": -77.06802
@@ -191,180 +471,32 @@
     "lat": 47.25288,
     "lng": -122.44429
   },
-  "alguaire|catalonia|spain": {
-    "lat": 41.73703,
-    "lng": 0.5845
-  },
-  "essex|ontario|canada": {
-    "lat": 39.30927,
-    "lng": -76.47496
-  },
-  "parkland|alberta|canada": {
-    "lat": 47.15538,
-    "lng": -122.43401
-  },
-  "afton|nova scotia|canada": {
-    "lat": 40.78788,
-    "lng": -74.38821
-  },
-  "cairns|queensland|australia": {
-    "lat": -16.92366,
-    "lng": 145.76613
-  },
-  "brasilia|brazil": {
-    "lat": -15.77972,
-    "lng": -47.92972
-  },
-  "sao paulo|brazil": {
-    "lat": -23.5475,
-    "lng": -46.63611
-  },
-  "tournai|belgium": {
-    "lat": 50.60715,
-    "lng": 3.38932
-  },
-  "manitoulin island|ontario|canada": {
-    "lat": 45.83337,
-    "lng": -82.33313
-  },
-  "nanaimo|british columbia|canada": {
-    "lat": 49.16638,
-    "lng": -123.94003
-  },
-  "hamilton|ontario|canada": {
-    "lat": 43.25011,
-    "lng": -79.84963
-  },
-  "peterborough|ontario|canada": {
-    "lat": 44.30012,
-    "lng": -78.31623
-  },
-  "edmonton|alberta|canada": {
-    "lat": 53.55014,
-    "lng": -113.46871
-  },
-  "saskatoon|saskatchewan�|canada": {
-    "lat": 52.13238,
-    "lng": -106.66892
-  },
-  "grande prairie|alberta|canada": {
-    "lat": 55.16667,
-    "lng": -118.80271
-  },
-  "prince george|british columbia|canada": {
-    "lat": 53.9166,
-    "lng": -122.75301
-  },
-  "heinsburg|alberta|canada": {
-    "lat": 53.76687,
-    "lng": -110.51835
-  },
-  "wetaskiwin|alberta|canada": {
-    "lat": 52.96683,
-    "lng": -113.36869
-  },
-  "calgary|alberta|canada": {
-    "lat": 51.05011,
-    "lng": -114.08529
-  },
-  "debden|saskatchewan�|canada": {
-    "lat": 53.5168,
-    "lng": -106.88444
-  },
-  "seine|france": {
-    "lat": 48.55743,
-    "lng": 2.55316
-  },
-  "caen|france": {
-    "lat": 49.18585,
-    "lng": -0.35912
-  },
-  "kassel|germany": {
-    "lat": 51.31667,
-    "lng": 9.5
-  },
-  "frankfurt|germany": {
-    "lat": 52.34714,
-    "lng": 14.55062
-  },
-  "hilo|hawaii|united states": {
-    "lat": 19.72991,
-    "lng": -155.09073
-  },
-  "kono|hawaii|united states": {
-    "lat": 8.58333,
-    "lng": 37.9
-  },
-  "honolulu|hawaii|united states": {
-    "lat": 21.30694,
-    "lng": -157.85834
-  },
-  "szentendre|hungry": {
-    "lat": 47.66943,
-    "lng": 19.07561
-  },
-  "chupicuaro|mexico": {
-    "lat": 20.00392,
-    "lng": -101.17047
-  },
-  "mexico city|mexico": {
-    "lat": 19.42847,
-    "lng": -99.12766
-  },
-  "tangiers|morocco": {
-    "lat": 35.76727,
-    "lng": -5.79975
-  },
-  "casablanca|morocco": {
-    "lat": 33.58831,
-    "lng": -7.61138
-  },
-  "rabat|morocco": {
-    "lat": 34.01325,
-    "lng": -6.83255
-  },
-  "kenitra|morocco": {
-    "lat": 34.26101,
-    "lng": -6.5802
-  },
-  "waipounamu|new zealand": {
-    "lat": -45.85,
-    "lng": 168.76666
-  },
-  "auckland|new zealand": {
-    "lat": -36.84853,
-    "lng": 174.76349
-  },
-  "singapore|singapore": {
-    "lat": 1.28967,
-    "lng": 103.85007
-  },
-  "barcelona|catalonia|spain": {
-    "lat": 41.38879,
-    "lng": 2.15899
-  },
-  "torre del mar|spain": {
-    "lat": 36.742,
-    "lng": -4.09291
-  },
-  "bangkok|thailand": {
-    "lat": 13.75398,
-    "lng": 100.50144
-  },
-  "papeete|tahiti": {
-    "lat": -17.5347,
-    "lng": -149.56844
-  },
-  "london|united kingdom": {
-    "lat": 51.50853,
-    "lng": -0.12574
-  },
-  "nottingham|united kingdom": {
-    "lat": 52.9536,
-    "lng": -1.15047
-  },
-  "caracas|venezuela": {
+  "caracas|capital|venezuela": {
     "lat": 10.48801,
     "lng": -66.87919
+  },
+  "delton|wisconsin|united states": {
+    "lat": 42.49976,
+    "lng": -85.40806
+  },
+  "fort washakie|wyoming|united states": {
+    "lat": 43.00635,
+    "lng": -108.88235
+  },
+  "brisbane|queensland|australia": {
+    "lat": -27.46794,
+    "lng": 153.02809
+  },
+  "sackville|nova scotia|canada": {
+    "lat": 45.89868,
+    "lng": -64.36836
+  },
+  "hoyerswerda|saxony|germany": {
+    "lat": 51.43787,
+    "lng": 14.23549
+  },
+  "manila|national capital region|philippines": {
+    "lat": 14.6042,
+    "lng": 120.9822
   }
 }
