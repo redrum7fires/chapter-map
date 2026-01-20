@@ -1095,7 +1095,7 @@
     "id": 79,
     "chapterName": "Saginaw Chippewa",
     "city": "Mt Pleasant",
-    "stateRegion": "Michigan",
+    "stateRegion": "MI",
     "country": "United States",
     "presidentName": "",
     "presidentCell": "",
@@ -1103,7 +1103,7 @@
     "vicePresidentCell": "",
     "lat": 35.39931,
     "lng": -80.4359,
-    "geocodeNote": "cache"
+    "geocodeNote": "open-meteo"
   },
   {
     "id": 80,
@@ -1458,15 +1458,15 @@
   {
     "id": 105,
     "chapterName": "Catawba River",
-    "city": "Columbia",
+    "city": "Gastonia",
     "stateRegion": "North Carolina",
     "country": "United States",
     "presidentName": "",
     "presidentCell": "",
     "vicePresidentName": "",
     "vicePresidentCell": "",
-    "lat": 34.00071,
-    "lng": -81.03481,
+    "lat": 35.26208,
+    "lng": -81.1873,
     "geocodeNote": "cache"
   },
   {
@@ -1509,7 +1509,7 @@
     "vicePresidentCell": "",
     "lat": 36.15398,
     "lng": -95.99277,
-    "geocodeNote": "open-meteo"
+    "geocodeNote": "cache"
   },
   {
     "id": 109,
@@ -1626,15 +1626,15 @@
   {
     "id": 117,
     "chapterName": "\"Bear Creek \"\"Prospective\"\"\"",
-    "city": "Amarillo",
+    "city": "Stinnett",
     "stateRegion": "Texas",
     "country": "United States",
     "presidentName": "",
     "presidentCell": "",
     "vicePresidentName": "",
     "vicePresidentCell": "",
-    "lat": 35.222,
-    "lng": -101.8313,
+    "lat": 35.82698,
+    "lng": -101.44294,
     "geocodeNote": "cache"
   },
   {
@@ -1752,15 +1752,15 @@
   {
     "id": 126,
     "chapterName": "Wolf Ridge",
-    "city": "Monroe",
+    "city": "Everett",
     "stateRegion": "Washington",
     "country": "United States",
     "presidentName": "",
     "presidentCell": "",
     "vicePresidentName": "",
     "vicePresidentCell": "",
-    "lat": 32.50931,
-    "lng": -92.1193,
+    "lat": 47.97898,
+    "lng": -122.20208,
     "geocodeNote": "cache"
   },
   {
