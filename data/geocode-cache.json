@@ -522,5 +522,9 @@
   "manila|national capital region|philippines": {
     "lat": 14.6042,
     "lng": 120.9822
+  },
+  "niagara falls|new york|united states": {
+    "lat": 43.0945,
+    "lng": -79.05671
   }
 }
