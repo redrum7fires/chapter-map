@@ -498,5 +498,33 @@
   "manila|national capital region|philippines": {
     "lat": 14.6042,
     "lng": 120.9822
+  },
+  "atlanta|georgia|united states": {
+    "lat": 33.749,
+    "lng": -84.38798
+  },
+  "pahoa|hawaii|united states": {
+    "lat": 19.49404,
+    "lng": -154.9443
+  },
+  "concord|new hampshire|united states": {
+    "lat": 37.97798,
+    "lng": -122.03107
+  },
+  "hogansburg|new york|united states": {
+    "lat": 44.97394,
+    "lng": -74.66324
+  },
+  "hallefors|sweden": {
+    "lat": 59.78388,
+    "lng": 14.52197
+  },
+  "hartford|ct|united states": {
+    "lat": 41.76371,
+    "lng": -72.68509
+  },
+  "uncasville|ct|united states": {
+    "lat": 41.43454,
+    "lng": -72.1098
   }
 }
