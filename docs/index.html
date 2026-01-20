@@ -103,7 +103,14 @@
   <script src="https://unpkg.com/leaflet.markercluster@1.5.3/dist/leaflet.markercluster.js"></script>
 
   <script>
-    const map = L.map('map', { worldCopyJump: true }).setView([20, 0], 2);
+   const map = L.map('map', {
+  worldCopyJump: true,
+  zoomControl: false
+}).setView([20, 0], 2);
+
+// Add zoom controls to top-right
+L.control.zoom({ position: 'topright' }).addTo(map);
+
 
     // OpenStreetMap tiles (free)
     L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
