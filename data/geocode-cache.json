@@ -75,9 +75,9 @@
     "lat": 48.85341,
     "lng": 2.3488
   },
-  "caen|normandy|france": {
-    "lat": 49.18585,
-    "lng": -0.35912
+  "gisors|normandy|france": {
+    "lat": 49.28178,
+    "lng": 1.7801
   },
   "kassel|hesse|germany": {
     "lat": 51.31667,
@@ -130,6 +130,10 @@
   "torre del mar|axarqu�a|spain": {
     "lat": 36.742,
     "lng": -4.09291
+  },
+  "hallefors|sweden": {
+    "lat": 59.78388,
+    "lng": 14.52197
   },
   "papeete|tahiti": {
     "lat": -17.5347,
@@ -211,6 +215,10 @@
     "lat": 38.58157,
     "lng": -121.4944
   },
+  "uncasville|ct|united states": {
+    "lat": 41.43454,
+    "lng": -72.1098
+  },
   "millsboro|delaware|united states": {
     "lat": 38.5915,
     "lng": -75.2913
@@ -226,6 +234,10 @@
   "port mayaca|florida|united states": {
     "lat": 26.98644,
     "lng": -80.60617
+  },
+  "atlanta|georgia|united states": {
+    "lat": 33.749,
+    "lng": -84.38798
   },
   "savannah|georgia|united states": {
     "lat": 32.08354,
@@ -246,6 +258,10 @@
   "kono|hawaii|united states": {
     "lat": 8.58333,
     "lng": 37.9
+  },
+  "pahoa|hawaii|united states": {
+    "lat": 19.49404,
+    "lng": -154.9443
   },
   "honolulu|hawaii|united states": {
     "lat": 21.30694,
@@ -291,9 +307,9 @@
     "lat": 41.64844,
     "lng": -70.48114
   },
-  "mt pleasant|michigan|united states": {
-    "lat": 35.39931,
-    "lng": -80.4359
+  "mount pleasant|michigan|united states": {
+    "lat": 43.59781,
+    "lng": -84.76751
   },
   "jackson|michigan|united states": {
     "lat": 32.29876,
@@ -318,6 +334,10 @@
   "tonopah|nevada|united states": {
     "lat": 38.06716,
     "lng": -117.23008
+  },
+  "concord|new hampshire|united states": {
+    "lat": 37.97798,
+    "lng": -122.03107
   },
   "princeton|new jersey|united states": {
     "lat": 38.35532,
@@ -363,6 +383,10 @@
     "lat": 32.81402,
     "lng": -96.94889
   },
+  "hogansburg|new york|united states": {
+    "lat": 44.97394,
+    "lng": -74.66324
+  },
   "walnut cove|north carolina|united states": {
     "lat": 36.29541,
     "lng": -80.14171
@@ -375,9 +399,9 @@
     "lat": 42.74943,
     "lng": -95.55167
   },
-  "columbia|north carolina|united states": {
-    "lat": 34.00071,
-    "lng": -81.03481
+  "gastonia|north carolina|united states": {
+    "lat": 35.26208,
+    "lng": -81.1873
   },
   "north royalton|ohio|united states": {
     "lat": 41.31366,
@@ -387,9 +411,9 @@
     "lat": 36.99032,
     "lng": -86.4436
   },
-  "tahlequah|oklahoma|united states": {
-    "lat": 35.91537,
-    "lng": -94.96996
+  "tulsa|oklahoma|united states": {
+    "lat": 36.15398,
+    "lng": -95.99277
   },
   "oklahoma city|oklahoma|united states": {
     "lat": 35.46756,
@@ -419,9 +443,9 @@
     "lat": 36.54843,
     "lng": -82.56182
   },
-  "amarillo|texas|united states": {
-    "lat": 35.222,
-    "lng": -101.8313
+  "stinnett|texas|united states": {
+    "lat": 35.82698,
+    "lng": -101.44294
   },
   "denton|texas|united states": {
     "lat": 33.21484,
@@ -435,9 +459,9 @@
     "lat": 29.42412,
     "lng": -98.49363
   },
-  "tabiona|utah|united states": {
-    "lat": 40.35444,
-    "lng": -110.71008
+  "logan|utah|united states": {
+    "lat": 41.73549,
+    "lng": -111.83439
   },
   "courtland|virginia|united states": {
     "lat": 36.71626,
@@ -455,9 +479,9 @@
     "lat": 47.18538,
     "lng": -122.2929
   },
-  "monroe|washington|united states": {
-    "lat": 32.50931,
-    "lng": -92.1193
+  "everett|washington|united states": {
+    "lat": 47.97898,
+    "lng": -122.20208
   },
   "spokan|washington|united states": {
     "lat": 47.65966,
@@ -498,61 +522,5 @@
   "manila|national capital region|philippines": {
     "lat": 14.6042,
     "lng": 120.9822
-  },
-  "atlanta|georgia|united states": {
-    "lat": 33.749,
-    "lng": -84.38798
-  },
-  "pahoa|hawaii|united states": {
-    "lat": 19.49404,
-    "lng": -154.9443
-  },
-  "concord|new hampshire|united states": {
-    "lat": 37.97798,
-    "lng": -122.03107
-  },
-  "hogansburg|new york|united states": {
-    "lat": 44.97394,
-    "lng": -74.66324
-  },
-  "hallefors|sweden": {
-    "lat": 59.78388,
-    "lng": 14.52197
-  },
-  "hartford|ct|united states": {
-    "lat": 41.76371,
-    "lng": -72.68509
-  },
-  "uncasville|ct|united states": {
-    "lat": 41.43454,
-    "lng": -72.1098
-  },
-  "tulsa|oklahoma|united states": {
-    "lat": 36.15398,
-    "lng": -95.99277
-  },
-  "gastonia|north carolina|united states": {
-    "lat": 35.26208,
-    "lng": -81.1873
-  },
-  "stinnett|texas|united states": {
-    "lat": 35.82698,
-    "lng": -101.44294
-  },
-  "everett|washington|united states": {
-    "lat": 47.97898,
-    "lng": -122.20208
-  },
-  "mt pleasant|mi|united states": {
-    "lat": 35.39931,
-    "lng": -80.4359
-  },
-  "mount pleasant|michigan|united states": {
-    "lat": 43.59781,
-    "lng": -84.76751
-  },
-  "gisors|normandy|france": {
-    "lat": 49.28178,
-    "lng": 1.7801
   }
 }
