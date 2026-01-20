@@ -43,7 +43,7 @@
   },
   {
     "id": 4,
-    "chapterName": "\"Tamoios \"\"prospective\"\"\"",
+    "chapterName": "Tamoios \"prospective",
     "city": "Ubatuba",
     "stateRegion": "San Paulo",
     "country": "Brazil",
@@ -239,7 +239,7 @@
   },
   {
     "id": 18,
-    "chapterName": "\"Big River \"\"Prospective\"\"\"",
+    "chapterName": "Big River \"Prospective",
     "city": "Debden",
     "stateRegion": "Alberta",
     "country": "Canada",
@@ -268,16 +268,16 @@
   {
     "id": 20,
     "chapterName": "Nor�ma�r",
-    "city": "Caen",
+    "city": "Gisors",
     "stateRegion": "Normandy",
     "country": "France",
     "presidentName": "",
     "presidentCell": "",
     "vicePresidentName": "",
     "vicePresidentCell": "",
-    "lat": 49.18585,
-    "lng": -0.35912,
-    "geocodeNote": "cache"
+    "lat": 49.28178,
+    "lng": 1.7801,
+    "geocodeNote": "open-meteo"
   },
   {
     "id": 21,
@@ -295,7 +295,7 @@
   },
   {
     "id": 22,
-    "chapterName": "\"White River \"\"Prospective\"\"\"",
+    "chapterName": "White River \"Prospective",
     "city": "Frankfurt",
     "stateRegion": "Hesse",
     "country": "Germany",
@@ -449,7 +449,7 @@
   },
   {
     "id": 33,
-    "chapterName": "\"Mainake \"\"Prospective\"\"\"",
+    "chapterName": "Mainake \"Prospective",
     "city": "Torre del Mar",
     "stateRegion": "Axarqu�a",
     "country": "Spain",
@@ -477,7 +477,7 @@
   },
   {
     "id": 35,
-    "chapterName": "\"Maohi \"\"Prospective\"\"\"",
+    "chapterName": "Maohi \"Prospective",
     "city": "Papeete",
     "stateRegion": "",
     "country": "Tahiti",
@@ -519,7 +519,7 @@
   },
   {
     "id": 38,
-    "chapterName": "\"Cave City \"\"Prospective\"\"\"",
+    "chapterName": "Cave City \"Prospective",
     "city": "Nottingham",
     "stateRegion": "East Midlands",
     "country": "United Kingdom",
@@ -617,7 +617,7 @@
   },
   {
     "id": 45,
-    "chapterName": "\"Ali-Shonak \"\"Prospective\"\"\"",
+    "chapterName": "Ali-Shonak \"Prospective",
     "city": "Scottsdale",
     "stateRegion": "Arizona",
     "country": "United States",
@@ -743,7 +743,7 @@
   },
   {
     "id": 54,
-    "chapterName": "\"Lokahi \"\"Prospective\"\"\"",
+    "chapterName": "Lokahi \"Prospective",
     "city": "El Segundo",
     "stateRegion": "California",
     "country": "United States",
@@ -827,7 +827,7 @@
   },
   {
     "id": 60,
-    "chapterName": "\"Mayaca \"\"Prospective\"\"\"",
+    "chapterName": "Mayaca \"Prospective",
     "city": "Port Mayaca",
     "stateRegion": "Florida",
     "country": "United States",
@@ -981,7 +981,7 @@
   },
   {
     "id": 71,
-    "chapterName": "\"Ravenswood \"\"Prospective\"\"\"",
+    "chapterName": "Ravenswood \"Prospective",
     "city": "Ravenswood",
     "stateRegion": "Indiana",
     "country": "United States",
@@ -995,7 +995,7 @@
   },
   {
     "id": 72,
-    "chapterName": "\"4 Corners \"\"Prospective\"\"\"",
+    "chapterName": "4 Corners \"Prospective",
     "city": "Pontoon Beach",
     "stateRegion": "Illinois",
     "country": "United States",
@@ -1094,16 +1094,16 @@
   {
     "id": 79,
     "chapterName": "Saginaw Chippewa",
-    "city": "Mt Pleasant",
-    "stateRegion": "MI",
+    "city": "Mount Pleasant",
+    "stateRegion": "Michigan",
     "country": "United States",
     "presidentName": "",
     "presidentCell": "",
     "vicePresidentName": "",
     "vicePresidentCell": "",
-    "lat": 35.39931,
-    "lng": -80.4359,
-    "geocodeNote": "open-meteo"
+    "lat": 43.59781,
+    "lng": -84.76751,
+    "geocodeNote": "cache"
   },
   {
     "id": 80,
@@ -1135,7 +1135,7 @@
   },
   {
     "id": 82,
-    "chapterName": "\"Fort Peck \"\"Prospectiv\"\"\"",
+    "chapterName": "Fort Peck \"Prospectiv",
     "city": "Fort Peck",
     "stateRegion": "Montana",
     "country": "United States",
@@ -1177,7 +1177,7 @@
   },
   {
     "id": 85,
-    "chapterName": "\"Toiyabe \"\"Prospective\"\"\"",
+    "chapterName": "Toiyabe \"Prospective",
     "city": "Tonopah",
     "stateRegion": "Nevada",
     "country": "United States",
@@ -1191,7 +1191,7 @@
   },
   {
     "id": 86,
-    "chapterName": "\"Pennacook \"\"Prospective\"\"\"",
+    "chapterName": "Pennacook \"Prospective",
     "city": "Concord",
     "stateRegion": "New Hampshire",
     "country": "United States",
@@ -1555,7 +1555,7 @@
   },
   {
     "id": 112,
-    "chapterName": "\"Huracan \"\"Prospective\"\"\"",
+    "chapterName": "Huracan \"Prospective",
     "city": "Borinquen",
     "stateRegion": "Puerto Rico",
     "country": "United States",
@@ -1625,7 +1625,7 @@
   },
   {
     "id": 117,
-    "chapterName": "\"Bear Creek \"\"Prospective\"\"\"",
+    "chapterName": "Bear Creek \"Prospective",
     "city": "Stinnett",
     "stateRegion": "Texas",
     "country": "United States",
@@ -1681,7 +1681,7 @@
   },
   {
     "id": 121,
-    "chapterName": "\"To-Kwanah \"\"Prospective\"\"\"",
+    "chapterName": "To-Kwanah \"Prospective",
     "city": "Tabiona",
     "stateRegion": "Utah",
     "country": "United States",
@@ -1807,7 +1807,7 @@
   },
   {
     "id": 130,
-    "chapterName": "\"Jirajara \"\"Prospective\"\"\"",
+    "chapterName": "Jirajara \"Prospective",
     "city": "Caracas",
     "stateRegion": "Capital",
     "country": "Venezuela",
@@ -1835,7 +1835,7 @@
   },
   {
     "id": 132,
-    "chapterName": "\"Wind River \"\"Prospective\"\"\"",
+    "chapterName": "Wind River \"Prospective",
     "city": "Fort Washakie",
     "stateRegion": "Wyoming",
     "country": "United States",
@@ -1863,7 +1863,7 @@
   },
   {
     "id": 134,
-    "chapterName": "\"Mi�kma�ki NB \"\"Prospective\"\"\"",
+    "chapterName": "Mi�kma�ki NB \"Prospective",
     "city": "Sackville",
     "stateRegion": "Nova Scotia",
     "country": "Canada",
@@ -1891,7 +1891,7 @@
   },
   {
     "id": 136,
-    "chapterName": "\"Orient Pearl \"\"Prospective\"\"\"",
+    "chapterName": "Orient Pearl \"Prospective",
     "city": "Manila",
     "stateRegion": "National Capital Region",
     "country": "Philippines",

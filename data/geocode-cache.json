@@ -546,5 +546,13 @@
   "mt pleasant|mi|united states": {
     "lat": 35.39931,
     "lng": -80.4359
+  },
+  "mount pleasant|michigan|united states": {
+    "lat": 43.59781,
+    "lng": -84.76751
+  },
+  "gisors|normandy|france": {
+    "lat": 49.28178,
+    "lng": 1.7801
   }
 }
