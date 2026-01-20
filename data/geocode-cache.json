@@ -522,5 +522,13 @@
   "manila|national capital region|philippines": {
     "lat": 14.6042,
     "lng": 120.9822
+  },
+  "kailua-kona|hawaii|united states": {
+    "lat": 19.64016,
+    "lng": -155.99911
+  },
+  "cleveland|ohio|united states": {
+    "lat": 41.4995,
+    "lng": -81.69541
   }
 }
