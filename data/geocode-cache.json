@@ -84,16 +84,16 @@
     "lng": 9.5
   },
   "frankfurt|hesse|germany": {
-    "lat": 52.34714,
-    "lng": 14.55062
+    "lat": 50.11552,
+    "lng": 8.68417
   },
   "szentendre|central|hungry": {
     "lat": 47.66943,
     "lng": 19.07561
   },
   "chupicuaro|guanajuato|mexico": {
-    "lat": 20.00392,
-    "lng": -101.17047
+    "lat": 20.0692,
+    "lng": -100.69156
   },
   "mexico city|mexico city|mexico": {
     "lat": 19.42847,
@@ -268,12 +268,12 @@
     "lng": -157.85834
   },
   "sullivan|indiana|united states": {
-    "lat": 39.59948,
-    "lng": -88.60784
+    "lat": 39.09532,
+    "lng": -87.40585
   },
   "lafayette|indiana|united states": {
-    "lat": 30.22409,
-    "lng": -92.01984
+    "lat": 40.4167,
+    "lng": -86.87529
   },
   "ravenswood|indiana|united states": {
     "lat": 38.94814,
@@ -300,8 +300,8 @@
     "lng": -76.09217
   },
   "everett|massachusetts|united states": {
-    "lat": 47.97898,
-    "lng": -122.20208
+    "lat": 42.40843,
+    "lng": -71.05366
   },
   "mashpee|massachusetts|united states": {
     "lat": 41.64844,
@@ -312,8 +312,8 @@
     "lng": -84.76751
   },
   "jackson|michigan|united states": {
-    "lat": 32.29876,
-    "lng": -90.18481
+    "lat": 42.24587,
+    "lng": -84.40135
   },
   "mahnomen|minnesota|united states": {
     "lat": 47.31524,
@@ -336,8 +336,8 @@
     "lng": -117.23008
   },
   "concord|new hampshire|united states": {
-    "lat": 37.97798,
-    "lng": -122.03107
+    "lat": 43.20814,
+    "lng": -71.53757
   },
   "princeton|new jersey|united states": {
     "lat": 38.35532,
@@ -380,8 +380,8 @@
     "lng": -107.42561
   },
   "irving|new york|united states": {
-    "lat": 32.81402,
-    "lng": -96.94889
+    "lat": 42.56756,
+    "lng": -79.11282
   },
   "hogansburg|new york|united states": {
     "lat": 44.97394,
@@ -392,12 +392,12 @@
     "lng": -80.14171
   },
   "fairmont|north carolina|united states": {
-    "lat": 39.48508,
-    "lng": -80.14258
+    "lat": 34.49683,
+    "lng": -79.1142
   },
   "cherokee|north carolina|united states": {
-    "lat": 42.74943,
-    "lng": -95.55167
+    "lat": 35.47427,
+    "lng": -83.31487
   },
   "gastonia|north carolina|united states": {
     "lat": 35.26208,
@@ -408,8 +408,8 @@
     "lng": -81.72457
   },
   "bowling green|ohio|united states": {
-    "lat": 36.99032,
-    "lng": -86.4436
+    "lat": 41.37477,
+    "lng": -83.65132
   },
   "tulsa|oklahoma|united states": {
     "lat": 36.15398,
@@ -420,12 +420,12 @@
     "lng": -97.51643
   },
   "new cumberland|pennsylvania|united states": {
-    "lat": 40.49673,
-    "lng": -80.60674
+    "lat": 40.23231,
+    "lng": -76.8847
   },
   "tioga|pennsylvania|united states": {
-    "lat": 48.39724,
-    "lng": -102.93824
+    "lat": 41.90868,
+    "lng": -77.13303
   },
   "borinquen|puerto rico|united states": {
     "lat": 18.58333,
@@ -468,8 +468,8 @@
     "lng": -77.06802
   },
   "blackstone|virginia|united states": {
-    "lat": 42.01788,
-    "lng": -71.54117
+    "lat": 37.08043,
+    "lng": -77.99723
   },
   "williamsburg|virginia|united states": {
     "lat": 37.2707,
@@ -500,8 +500,8 @@
     "lng": -66.87919
   },
   "delton|wisconsin|united states": {
-    "lat": 42.49976,
-    "lng": -85.40806
+    "lat": 43.58444,
+    "lng": -89.79747
   },
   "fort washakie|wyoming|united states": {
     "lat": 43.00635,

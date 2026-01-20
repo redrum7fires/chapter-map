@@ -209,9 +209,21 @@ async function geocodeWithFallback(row) {
     for (const t of tries) {
       const hits = await openMeteoSearch(t.q, t.iso2);
       if (hits.length > 0) {
-        // Pick first hit; country filter already does most of the work.
-        return { lat: hits[0].lat, lng: hits[0].lng, source: "open-meteo", queryUsed: t.q };
-      }
+  const expectedState = (row.StateRegion || "").trim().toLowerCase();
+  const expectedCountry = (row.Country || "").trim().toLowerCase();
+
+  // Prefer exact match on country + admin1/state when state is provided
+  const best = hits.find(h =>
+    (h.country || "").toLowerCase() === expectedCountry &&
+    (!expectedState || (h.admin1 || "").toLowerCase() === expectedState)
+  ) || hits.find(h =>
+    // fallback: at least match country
+    (h.country || "").toLowerCase() === expectedCountry
+  ) || hits[0];
+
+  return { lat: best.lat, lng: best.lng, source: "open-meteo" };
+}
+
     }
   }
 
