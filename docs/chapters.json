@@ -11,7 +11,7 @@
     "vicePresidentCell": "",
     "lat": -23.44212,
     "lng": 144.2492,
-    "geocodeNote": "cache"
+    "geocodeNote": "open-meteo"
   },
   {
     "id": 2,
@@ -25,7 +25,7 @@
     "vicePresidentCell": "",
     "lat": 50.60715,
     "lng": 3.38932,
-    "geocodeNote": "cache"
+    "geocodeNote": "open-meteo"
   },
   {
     "id": 3,
@@ -39,7 +39,7 @@
     "vicePresidentCell": "",
     "lat": -23.5475,
     "lng": -46.63611,
-    "geocodeNote": "cache"
+    "geocodeNote": "open-meteo"
   },
   {
     "id": 4,
@@ -53,7 +53,7 @@
     "vicePresidentCell": "",
     "lat": -23.43389,
     "lng": -45.07111,
-    "geocodeNote": "cache"
+    "geocodeNote": "open-meteo"
   },
   {
     "id": 5,
@@ -67,7 +67,7 @@
     "vicePresidentCell": "",
     "lat": 53.55014,
     "lng": -113.46871,
-    "geocodeNote": "cache"
+    "geocodeNote": "open-meteo"
   },
   {
     "id": 6,
@@ -81,7 +81,7 @@
     "vicePresidentCell": "",
     "lat": 55.16667,
     "lng": -118.80271,
-    "geocodeNote": "cache"
+    "geocodeNote": "open-meteo"
   },
   {
     "id": 7,
@@ -95,7 +95,7 @@
     "vicePresidentCell": "",
     "lat": 53.76687,
     "lng": -110.51835,
-    "geocodeNote": "cache"
+    "geocodeNote": "open-meteo"
   },
   {
     "id": 8,
@@ -109,7 +109,7 @@
     "vicePresidentCell": "",
     "lat": 52.96683,
     "lng": -113.36869,
-    "geocodeNote": "cache"
+    "geocodeNote": "open-meteo"
   },
   {
     "id": 9,
@@ -123,7 +123,7 @@
     "vicePresidentCell": "",
     "lat": 51.05011,
     "lng": -114.08529,
-    "geocodeNote": "cache"
+    "geocodeNote": "open-meteo"
   },
   {
     "id": 10,
@@ -137,7 +137,7 @@
     "vicePresidentCell": "",
     "lat": 49.16638,
     "lng": -123.94003,
-    "geocodeNote": "cache"
+    "geocodeNote": "open-meteo"
   },
   {
     "id": 11,
@@ -151,7 +151,7 @@
     "vicePresidentCell": "",
     "lat": 53.9166,
     "lng": -122.75301,
-    "geocodeNote": "cache"
+    "geocodeNote": "open-meteo"
   },
   {
     "id": 12,
@@ -165,7 +165,7 @@
     "vicePresidentCell": "",
     "lat": 40.78788,
     "lng": -74.38821,
-    "geocodeNote": "cache"
+    "geocodeNote": "open-meteo"
   },
   {
     "id": 13,
@@ -179,7 +179,7 @@
     "vicePresidentCell": "",
     "lat": 39.30927,
     "lng": -76.47496,
-    "geocodeNote": "cache"
+    "geocodeNote": "open-meteo"
   },
   {
     "id": 14,
@@ -193,7 +193,7 @@
     "vicePresidentCell": "",
     "lat": 45.83337,
     "lng": -82.33313,
-    "geocodeNote": "cache"
+    "geocodeNote": "open-meteo"
   },
   {
     "id": 15,
@@ -207,7 +207,7 @@
     "vicePresidentCell": "",
     "lat": 43.25011,
     "lng": -79.84963,
-    "geocodeNote": "cache"
+    "geocodeNote": "open-meteo"
   },
   {
     "id": 16,
@@ -221,7 +221,7 @@
     "vicePresidentCell": "",
     "lat": 44.30012,
     "lng": -78.31623,
-    "geocodeNote": "cache"
+    "geocodeNote": "open-meteo"
   },
   {
     "id": 17,
@@ -235,7 +235,7 @@
     "vicePresidentCell": "",
     "lat": 52.13238,
     "lng": -106.66892,
-    "geocodeNote": "cache"
+    "geocodeNote": "open-meteo"
   },
   {
     "id": 18,
@@ -249,7 +249,7 @@
     "vicePresidentCell": "",
     "lat": 53.5168,
     "lng": -106.88444,
-    "geocodeNote": "cache"
+    "geocodeNote": "open-meteo"
   },
   {
     "id": 19,
@@ -263,7 +263,7 @@
     "vicePresidentCell": "",
     "lat": 48.85341,
     "lng": 2.3488,
-    "geocodeNote": "cache"
+    "geocodeNote": "open-meteo"
   },
   {
     "id": 20,
@@ -277,7 +277,7 @@
     "vicePresidentCell": "",
     "lat": 49.28178,
     "lng": 1.7801,
-    "geocodeNote": "cache"
+    "geocodeNote": "open-meteo"
   },
   {
     "id": 21,
@@ -291,7 +291,7 @@
     "vicePresidentCell": "",
     "lat": 51.31667,
     "lng": 9.5,
-    "geocodeNote": "cache"
+    "geocodeNote": "open-meteo"
   },
   {
     "id": 22,
@@ -305,7 +305,7 @@
     "vicePresidentCell": "",
     "lat": 50.11552,
     "lng": 8.68417,
-    "geocodeNote": "cache"
+    "geocodeNote": "open-meteo"
   },
   {
     "id": 23,
@@ -319,7 +319,7 @@
     "vicePresidentCell": "",
     "lat": 47.66943,
     "lng": 19.07561,
-    "geocodeNote": "cache"
+    "geocodeNote": "open-meteo"
   },
   {
     "id": 24,
@@ -333,7 +333,7 @@
     "vicePresidentCell": "",
     "lat": 20.0692,
     "lng": -100.69156,
-    "geocodeNote": "cache"
+    "geocodeNote": "open-meteo"
   },
   {
     "id": 25,
@@ -347,7 +347,7 @@
     "vicePresidentCell": "",
     "lat": 19.42847,
     "lng": -99.12766,
-    "geocodeNote": "cache"
+    "geocodeNote": "open-meteo"
   },
   {
     "id": 26,
@@ -361,7 +361,7 @@
     "vicePresidentCell": "",
     "lat": 35.76727,
     "lng": -5.79975,
-    "geocodeNote": "cache"
+    "geocodeNote": "open-meteo"
   },
   {
     "id": 27,
@@ -375,7 +375,7 @@
     "vicePresidentCell": "",
     "lat": 33.58831,
     "lng": -7.61138,
-    "geocodeNote": "cache"
+    "geocodeNote": "open-meteo"
   },
   {
     "id": 28,
@@ -389,7 +389,7 @@
     "vicePresidentCell": "",
     "lat": 34.01325,
     "lng": -6.83255,
-    "geocodeNote": "cache"
+    "geocodeNote": "open-meteo"
   },
   {
     "id": 29,
@@ -403,7 +403,7 @@
     "vicePresidentCell": "",
     "lat": -45.85,
     "lng": 168.76666,
-    "geocodeNote": "cache"
+    "geocodeNote": "open-meteo"
   },
   {
     "id": 30,
@@ -417,7 +417,7 @@
     "vicePresidentCell": "",
     "lat": 1.28967,
     "lng": 103.85007,
-    "geocodeNote": "cache"
+    "geocodeNote": "open-meteo"
   },
   {
     "id": 31,
@@ -431,7 +431,7 @@
     "vicePresidentCell": "",
     "lat": 41.73703,
     "lng": 0.5845,
-    "geocodeNote": "cache"
+    "geocodeNote": "open-meteo"
   },
   {
     "id": 32,
@@ -445,7 +445,7 @@
     "vicePresidentCell": "",
     "lat": 41.38879,
     "lng": 2.15899,
-    "geocodeNote": "cache"
+    "geocodeNote": "open-meteo"
   },
   {
     "id": 33,
@@ -459,7 +459,7 @@
     "vicePresidentCell": "",
     "lat": 36.742,
     "lng": -4.09291,
-    "geocodeNote": "cache"
+    "geocodeNote": "open-meteo"
   },
   {
     "id": 34,
@@ -473,7 +473,7 @@
     "vicePresidentCell": "",
     "lat": 59.78388,
     "lng": 14.52197,
-    "geocodeNote": "cache"
+    "geocodeNote": "open-meteo"
   },
   {
     "id": 35,
@@ -487,7 +487,7 @@
     "vicePresidentCell": "",
     "lat": -17.5347,
     "lng": -149.56844,
-    "geocodeNote": "cache"
+    "geocodeNote": "open-meteo"
   },
   {
     "id": 36,
@@ -501,7 +501,7 @@
     "vicePresidentCell": "",
     "lat": 13.75398,
     "lng": 100.50144,
-    "geocodeNote": "cache"
+    "geocodeNote": "open-meteo"
   },
   {
     "id": 37,
@@ -515,7 +515,7 @@
     "vicePresidentCell": "",
     "lat": 51.50853,
     "lng": -0.12574,
-    "geocodeNote": "cache"
+    "geocodeNote": "open-meteo"
   },
   {
     "id": 38,
@@ -529,7 +529,7 @@
     "vicePresidentCell": "",
     "lat": 52.9536,
     "lng": -1.15047,
-    "geocodeNote": "cache"
+    "geocodeNote": "open-meteo"
   },
   {
     "id": 39,
@@ -543,7 +543,7 @@
     "vicePresidentCell": "",
     "lat": 34.52509,
     "lng": -86.89473,
-    "geocodeNote": "cache"
+    "geocodeNote": "open-meteo"
   },
   {
     "id": 40,
@@ -557,7 +557,7 @@
     "vicePresidentCell": "",
     "lat": 33.44838,
     "lng": -112.07404,
-    "geocodeNote": "cache"
+    "geocodeNote": "open-meteo"
   },
   {
     "id": 41,
@@ -571,7 +571,7 @@
     "vicePresidentCell": "",
     "lat": 33.30616,
     "lng": -111.84125,
-    "geocodeNote": "cache"
+    "geocodeNote": "open-meteo"
   },
   {
     "id": 42,
@@ -585,7 +585,7 @@
     "vicePresidentCell": "",
     "lat": 35.68057,
     "lng": -109.05259,
-    "geocodeNote": "cache"
+    "geocodeNote": "open-meteo"
   },
   {
     "id": 43,
@@ -599,7 +599,7 @@
     "vicePresidentCell": "",
     "lat": 32.22174,
     "lng": -110.92648,
-    "geocodeNote": "cache"
+    "geocodeNote": "open-meteo"
   },
   {
     "id": 44,
@@ -613,7 +613,7 @@
     "vicePresidentCell": "",
     "lat": 34.54002,
     "lng": -112.4685,
-    "geocodeNote": "cache"
+    "geocodeNote": "open-meteo"
   },
   {
     "id": 45,
@@ -627,7 +627,7 @@
     "vicePresidentCell": "",
     "lat": 33.50921,
     "lng": -111.89903,
-    "geocodeNote": "cache"
+    "geocodeNote": "open-meteo"
   },
   {
     "id": 46,
@@ -641,7 +641,7 @@
     "vicePresidentCell": "",
     "lat": 35.48942,
     "lng": -120.67073,
-    "geocodeNote": "cache"
+    "geocodeNote": "open-meteo"
   },
   {
     "id": 47,
@@ -655,7 +655,7 @@
     "vicePresidentCell": "",
     "lat": 36.67774,
     "lng": -121.6555,
-    "geocodeNote": "cache"
+    "geocodeNote": "open-meteo"
   },
   {
     "id": 48,
@@ -669,7 +669,7 @@
     "vicePresidentCell": "",
     "lat": 34.10834,
     "lng": -117.28977,
-    "geocodeNote": "cache"
+    "geocodeNote": "open-meteo"
   },
   {
     "id": 49,
@@ -683,7 +683,7 @@
     "vicePresidentCell": "",
     "lat": 36.82523,
     "lng": -119.70292,
-    "geocodeNote": "cache"
+    "geocodeNote": "open-meteo"
   },
   {
     "id": 50,
@@ -697,7 +697,7 @@
     "vicePresidentCell": "",
     "lat": 32.71571,
     "lng": -117.16472,
-    "geocodeNote": "cache"
+    "geocodeNote": "open-meteo"
   },
   {
     "id": 51,
@@ -725,7 +725,7 @@
     "vicePresidentCell": "",
     "lat": 40.58654,
     "lng": -122.39168,
-    "geocodeNote": "cache"
+    "geocodeNote": "open-meteo"
   },
   {
     "id": 53,
@@ -739,7 +739,7 @@
     "vicePresidentCell": "",
     "lat": 34.27834,
     "lng": -119.29317,
-    "geocodeNote": "cache"
+    "geocodeNote": "open-meteo"
   },
   {
     "id": 54,
@@ -753,7 +753,7 @@
     "vicePresidentCell": "",
     "lat": 33.91918,
     "lng": -118.41647,
-    "geocodeNote": "cache"
+    "geocodeNote": "open-meteo"
   },
   {
     "id": 55,
@@ -767,7 +767,7 @@
     "vicePresidentCell": "",
     "lat": 38.58157,
     "lng": -121.4944,
-    "geocodeNote": "cache"
+    "geocodeNote": "open-meteo"
   },
   {
     "id": 56,
@@ -781,7 +781,7 @@
     "vicePresidentCell": "",
     "lat": 41.43454,
     "lng": -72.1098,
-    "geocodeNote": "cache"
+    "geocodeNote": "open-meteo"
   },
   {
     "id": 57,
@@ -795,7 +795,7 @@
     "vicePresidentCell": "",
     "lat": 38.5915,
     "lng": -75.2913,
-    "geocodeNote": "cache"
+    "geocodeNote": "open-meteo"
   },
   {
     "id": 58,
@@ -809,7 +809,7 @@
     "vicePresidentCell": "",
     "lat": 27.24393,
     "lng": -80.82978,
-    "geocodeNote": "cache"
+    "geocodeNote": "open-meteo"
   },
   {
     "id": 59,
@@ -823,7 +823,7 @@
     "vicePresidentCell": "",
     "lat": 27.94752,
     "lng": -82.45843,
-    "geocodeNote": "cache"
+    "geocodeNote": "open-meteo"
   },
   {
     "id": 60,
@@ -837,7 +837,7 @@
     "vicePresidentCell": "",
     "lat": 26.98644,
     "lng": -80.60617,
-    "geocodeNote": "cache"
+    "geocodeNote": "open-meteo"
   },
   {
     "id": 61,
@@ -851,7 +851,7 @@
     "vicePresidentCell": "",
     "lat": 33.749,
     "lng": -84.38798,
-    "geocodeNote": "cache"
+    "geocodeNote": "open-meteo"
   },
   {
     "id": 62,
@@ -865,7 +865,7 @@
     "vicePresidentCell": "",
     "lat": 32.08354,
     "lng": -81.09983,
-    "geocodeNote": "cache"
+    "geocodeNote": "open-meteo"
   },
   {
     "id": 63,
@@ -879,7 +879,7 @@
     "vicePresidentCell": "",
     "lat": 34.86397,
     "lng": -84.32409,
-    "geocodeNote": "cache"
+    "geocodeNote": "open-meteo"
   },
   {
     "id": 64,
@@ -893,7 +893,7 @@
     "vicePresidentCell": "",
     "lat": 33.96095,
     "lng": -83.37794,
-    "geocodeNote": "cache"
+    "geocodeNote": "open-meteo"
   },
   {
     "id": 65,
@@ -907,7 +907,7 @@
     "vicePresidentCell": "",
     "lat": 21.30694,
     "lng": -157.85834,
-    "geocodeNote": "cache"
+    "geocodeNote": "open-meteo"
   },
   {
     "id": 66,
@@ -921,7 +921,7 @@
     "vicePresidentCell": "",
     "lat": 8.58333,
     "lng": 37.9,
-    "geocodeNote": "cache"
+    "geocodeNote": "open-meteo"
   },
   {
     "id": 67,
@@ -935,7 +935,7 @@
     "vicePresidentCell": "",
     "lat": 19.49404,
     "lng": -154.9443,
-    "geocodeNote": "cache"
+    "geocodeNote": "open-meteo"
   },
   {
     "id": 68,
@@ -949,7 +949,7 @@
     "vicePresidentCell": "",
     "lat": 19.64016,
     "lng": -155.99911,
-    "geocodeNote": "cache"
+    "geocodeNote": "open-meteo"
   },
   {
     "id": 69,
@@ -963,7 +963,7 @@
     "vicePresidentCell": "",
     "lat": 39.09532,
     "lng": -87.40585,
-    "geocodeNote": "cache"
+    "geocodeNote": "open-meteo"
   },
   {
     "id": 70,
@@ -977,7 +977,7 @@
     "vicePresidentCell": "",
     "lat": 40.4167,
     "lng": -86.87529,
-    "geocodeNote": "cache"
+    "geocodeNote": "open-meteo"
   },
   {
     "id": 71,
@@ -991,7 +991,7 @@
     "vicePresidentCell": "",
     "lat": 38.94814,
     "lng": -81.76096,
-    "geocodeNote": "cache"
+    "geocodeNote": "open-meteo"
   },
   {
     "id": 72,
@@ -1005,7 +1005,7 @@
     "vicePresidentCell": "",
     "lat": 38.73172,
     "lng": -90.08038,
-    "geocodeNote": "cache"
+    "geocodeNote": "open-meteo"
   },
   {
     "id": 73,
@@ -1019,21 +1019,21 @@
     "vicePresidentCell": "",
     "lat": 32.52515,
     "lng": -93.75018,
-    "geocodeNote": "cache"
+    "geocodeNote": "open-meteo"
   },
   {
     "id": 74,
     "chapterName": "Wabanaki",
-    "city": "Bangor",
+    "city": "Passamaquoddy Indian Township",
     "stateRegion": "Maine",
     "country": "United States",
     "presidentName": "",
     "presidentCell": "",
     "vicePresidentName": "",
     "vicePresidentCell": "",
-    "lat": 44.79884,
-    "lng": -68.77265,
-    "geocodeNote": "cache"
+    "lat": 45.19,
+    "lng": -67.69,
+    "geocodeNote": "override"
   },
   {
     "id": 75,
@@ -1047,7 +1047,7 @@
     "vicePresidentCell": "",
     "lat": 39.00178,
     "lng": -76.68747,
-    "geocodeNote": "cache"
+    "geocodeNote": "open-meteo"
   },
   {
     "id": 76,
@@ -1061,7 +1061,7 @@
     "vicePresidentCell": "",
     "lat": 39.27455,
     "lng": -76.09217,
-    "geocodeNote": "cache"
+    "geocodeNote": "open-meteo"
   },
   {
     "id": 77,
@@ -1075,7 +1075,7 @@
     "vicePresidentCell": "",
     "lat": 42.40843,
     "lng": -71.05366,
-    "geocodeNote": "cache"
+    "geocodeNote": "open-meteo"
   },
   {
     "id": 78,
@@ -1089,7 +1089,7 @@
     "vicePresidentCell": "",
     "lat": 41.64844,
     "lng": -70.48114,
-    "geocodeNote": "cache"
+    "geocodeNote": "open-meteo"
   },
   {
     "id": 79,
@@ -1103,7 +1103,7 @@
     "vicePresidentCell": "",
     "lat": 43.59781,
     "lng": -84.76751,
-    "geocodeNote": "cache"
+    "geocodeNote": "open-meteo"
   },
   {
     "id": 80,
@@ -1117,7 +1117,7 @@
     "vicePresidentCell": "",
     "lat": 42.24587,
     "lng": -84.40135,
-    "geocodeNote": "cache"
+    "geocodeNote": "open-meteo"
   },
   {
     "id": 81,
@@ -1131,7 +1131,7 @@
     "vicePresidentCell": "",
     "lat": 47.31524,
     "lng": -95.96865,
-    "geocodeNote": "cache"
+    "geocodeNote": "open-meteo"
   },
   {
     "id": 82,
@@ -1145,7 +1145,7 @@
     "vicePresidentCell": "",
     "lat": 48.00889,
     "lng": -106.44861,
-    "geocodeNote": "cache"
+    "geocodeNote": "open-meteo"
   },
   {
     "id": 83,
@@ -1159,7 +1159,7 @@
     "vicePresidentCell": "",
     "lat": 42.87278,
     "lng": -100.55097,
-    "geocodeNote": "cache"
+    "geocodeNote": "open-meteo"
   },
   {
     "id": 84,
@@ -1173,7 +1173,7 @@
     "vicePresidentCell": "",
     "lat": 36.17497,
     "lng": -115.13722,
-    "geocodeNote": "cache"
+    "geocodeNote": "open-meteo"
   },
   {
     "id": 85,
@@ -1187,7 +1187,7 @@
     "vicePresidentCell": "",
     "lat": 38.06716,
     "lng": -117.23008,
-    "geocodeNote": "cache"
+    "geocodeNote": "open-meteo"
   },
   {
     "id": 86,
@@ -1201,7 +1201,7 @@
     "vicePresidentCell": "",
     "lat": 43.20814,
     "lng": -71.53757,
-    "geocodeNote": "cache"
+    "geocodeNote": "open-meteo"
   },
   {
     "id": 87,
@@ -1215,7 +1215,7 @@
     "vicePresidentCell": "",
     "lat": 38.35532,
     "lng": -87.56752,
-    "geocodeNote": "cache"
+    "geocodeNote": "open-meteo"
   },
   {
     "id": 88,
@@ -1229,7 +1229,7 @@
     "vicePresidentCell": "",
     "lat": 42.32652,
     "lng": -122.87559,
-    "geocodeNote": "cache"
+    "geocodeNote": "open-meteo"
   },
   {
     "id": 89,
@@ -1243,7 +1243,7 @@
     "vicePresidentCell": "",
     "lat": 40.57427,
     "lng": -74.60988,
-    "geocodeNote": "cache"
+    "geocodeNote": "open-meteo"
   },
   {
     "id": 90,
@@ -1257,7 +1257,7 @@
     "vicePresidentCell": "",
     "lat": 40.71427,
     "lng": -74.00597,
-    "geocodeNote": "cache"
+    "geocodeNote": "open-meteo"
   },
   {
     "id": 91,
@@ -1285,7 +1285,7 @@
     "vicePresidentCell": "",
     "lat": 40.6501,
     "lng": -73.94958,
-    "geocodeNote": "cache"
+    "geocodeNote": "open-meteo"
   },
   {
     "id": 93,
@@ -1299,7 +1299,7 @@
     "vicePresidentCell": "",
     "lat": 40.56233,
     "lng": -74.13986,
-    "geocodeNote": "cache"
+    "geocodeNote": "open-meteo"
   },
   {
     "id": 94,
@@ -1313,7 +1313,7 @@
     "vicePresidentCell": "",
     "lat": 43.04812,
     "lng": -76.14742,
-    "geocodeNote": "cache"
+    "geocodeNote": "open-meteo"
   },
   {
     "id": 95,
@@ -1327,7 +1327,7 @@
     "vicePresidentCell": "",
     "lat": 42.65258,
     "lng": -73.75623,
-    "geocodeNote": "cache"
+    "geocodeNote": "open-meteo"
   },
   {
     "id": 96,
@@ -1341,7 +1341,7 @@
     "vicePresidentCell": "",
     "lat": 40.84985,
     "lng": -73.86641,
-    "geocodeNote": "cache"
+    "geocodeNote": "open-meteo"
   },
   {
     "id": 97,
@@ -1383,7 +1383,7 @@
     "vicePresidentCell": "",
     "lat": 37.92277,
     "lng": -107.42561,
-    "geocodeNote": "cache"
+    "geocodeNote": "open-meteo"
   },
   {
     "id": 100,
@@ -1397,7 +1397,7 @@
     "vicePresidentCell": "",
     "lat": 42.56756,
     "lng": -79.11282,
-    "geocodeNote": "cache"
+    "geocodeNote": "open-meteo"
   },
   {
     "id": 101,
@@ -1411,7 +1411,7 @@
     "vicePresidentCell": "",
     "lat": 44.97394,
     "lng": -74.66324,
-    "geocodeNote": "cache"
+    "geocodeNote": "open-meteo"
   },
   {
     "id": 102,
@@ -1425,7 +1425,7 @@
     "vicePresidentCell": "",
     "lat": 36.29541,
     "lng": -80.14171,
-    "geocodeNote": "cache"
+    "geocodeNote": "open-meteo"
   },
   {
     "id": 103,
@@ -1439,7 +1439,7 @@
     "vicePresidentCell": "",
     "lat": 34.49683,
     "lng": -79.1142,
-    "geocodeNote": "cache"
+    "geocodeNote": "open-meteo"
   },
   {
     "id": 104,
@@ -1453,7 +1453,7 @@
     "vicePresidentCell": "",
     "lat": 35.47427,
     "lng": -83.31487,
-    "geocodeNote": "cache"
+    "geocodeNote": "open-meteo"
   },
   {
     "id": 105,
@@ -1467,7 +1467,7 @@
     "vicePresidentCell": "",
     "lat": 35.26208,
     "lng": -81.1873,
-    "geocodeNote": "cache"
+    "geocodeNote": "open-meteo"
   },
   {
     "id": 106,
@@ -1481,7 +1481,7 @@
     "vicePresidentCell": "",
     "lat": 41.4995,
     "lng": -81.69541,
-    "geocodeNote": "cache"
+    "geocodeNote": "open-meteo"
   },
   {
     "id": 107,
@@ -1495,7 +1495,7 @@
     "vicePresidentCell": "",
     "lat": 41.37477,
     "lng": -83.65132,
-    "geocodeNote": "cache"
+    "geocodeNote": "open-meteo"
   },
   {
     "id": 108,
@@ -1509,7 +1509,7 @@
     "vicePresidentCell": "",
     "lat": 36.15398,
     "lng": -95.99277,
-    "geocodeNote": "cache"
+    "geocodeNote": "open-meteo"
   },
   {
     "id": 109,
@@ -1523,7 +1523,7 @@
     "vicePresidentCell": "",
     "lat": 35.46756,
     "lng": -97.51643,
-    "geocodeNote": "cache"
+    "geocodeNote": "open-meteo"
   },
   {
     "id": 110,
@@ -1537,7 +1537,7 @@
     "vicePresidentCell": "",
     "lat": 40.23231,
     "lng": -76.8847,
-    "geocodeNote": "cache"
+    "geocodeNote": "open-meteo"
   },
   {
     "id": 111,
@@ -1551,7 +1551,7 @@
     "vicePresidentCell": "",
     "lat": 41.90868,
     "lng": -77.13303,
-    "geocodeNote": "cache"
+    "geocodeNote": "open-meteo"
   },
   {
     "id": 112,
@@ -1565,7 +1565,7 @@
     "vicePresidentCell": "",
     "lat": 18.58333,
     "lng": -68.93333,
-    "geocodeNote": "cache"
+    "geocodeNote": "open-meteo"
   },
   {
     "id": 113,
@@ -1579,7 +1579,7 @@
     "vicePresidentCell": "",
     "lat": 41.4501,
     "lng": -71.4495,
-    "geocodeNote": "cache"
+    "geocodeNote": "open-meteo"
   },
   {
     "id": 114,
@@ -1593,7 +1593,7 @@
     "vicePresidentCell": "",
     "lat": 45.53722,
     "lng": -100.42791,
-    "geocodeNote": "cache"
+    "geocodeNote": "open-meteo"
   },
   {
     "id": 115,
@@ -1607,7 +1607,7 @@
     "vicePresidentCell": "",
     "lat": 36.54843,
     "lng": -82.56182,
-    "geocodeNote": "cache"
+    "geocodeNote": "open-meteo"
   },
   {
     "id": 116,
@@ -1635,7 +1635,7 @@
     "vicePresidentCell": "",
     "lat": 35.82698,
     "lng": -101.44294,
-    "geocodeNote": "cache"
+    "geocodeNote": "open-meteo"
   },
   {
     "id": 118,
@@ -1649,7 +1649,7 @@
     "vicePresidentCell": "",
     "lat": 33.21484,
     "lng": -97.13307,
-    "geocodeNote": "cache"
+    "geocodeNote": "open-meteo"
   },
   {
     "id": 119,
@@ -1663,7 +1663,7 @@
     "vicePresidentCell": "",
     "lat": 30.26715,
     "lng": -97.74306,
-    "geocodeNote": "cache"
+    "geocodeNote": "open-meteo"
   },
   {
     "id": 120,
@@ -1677,7 +1677,7 @@
     "vicePresidentCell": "",
     "lat": 29.42412,
     "lng": -98.49363,
-    "geocodeNote": "cache"
+    "geocodeNote": "open-meteo"
   },
   {
     "id": 121,
@@ -1691,7 +1691,7 @@
     "vicePresidentCell": "",
     "lat": 41.73549,
     "lng": -111.83439,
-    "geocodeNote": "cache"
+    "geocodeNote": "open-meteo"
   },
   {
     "id": 122,
@@ -1705,7 +1705,7 @@
     "vicePresidentCell": "",
     "lat": 36.71626,
     "lng": -77.06802,
-    "geocodeNote": "cache"
+    "geocodeNote": "open-meteo"
   },
   {
     "id": 123,
@@ -1719,7 +1719,7 @@
     "vicePresidentCell": "",
     "lat": 37.08043,
     "lng": -77.99723,
-    "geocodeNote": "cache"
+    "geocodeNote": "open-meteo"
   },
   {
     "id": 124,
@@ -1733,7 +1733,7 @@
     "vicePresidentCell": "",
     "lat": 37.2707,
     "lng": -76.70746,
-    "geocodeNote": "cache"
+    "geocodeNote": "open-meteo"
   },
   {
     "id": 125,
@@ -1747,7 +1747,7 @@
     "vicePresidentCell": "",
     "lat": 47.18538,
     "lng": -122.2929,
-    "geocodeNote": "cache"
+    "geocodeNote": "open-meteo"
   },
   {
     "id": 126,
@@ -1761,7 +1761,7 @@
     "vicePresidentCell": "",
     "lat": 47.97898,
     "lng": -122.20208,
-    "geocodeNote": "cache"
+    "geocodeNote": "open-meteo"
   },
   {
     "id": 127,
@@ -1775,7 +1775,7 @@
     "vicePresidentCell": "",
     "lat": 47.65966,
     "lng": -117.42908,
-    "geocodeNote": "cache"
+    "geocodeNote": "open-meteo"
   },
   {
     "id": 128,
@@ -1789,21 +1789,21 @@
     "vicePresidentCell": "",
     "lat": 46.60207,
     "lng": -120.5059,
-    "geocodeNote": "cache"
+    "geocodeNote": "open-meteo"
   },
   {
     "id": 129,
     "chapterName": "sx?da?d?b",
-    "city": "Tacoma",
+    "city": "Nisqually",
     "stateRegion": "Washington",
     "country": "United States",
     "presidentName": "",
     "presidentCell": "",
     "vicePresidentName": "",
     "vicePresidentCell": "",
-    "lat": 47.25288,
-    "lng": -122.44429,
-    "geocodeNote": "cache"
+    "lat": 47.05649,
+    "lng": -122.70124,
+    "geocodeNote": "open-meteo"
   },
   {
     "id": 130,
@@ -1817,7 +1817,7 @@
     "vicePresidentCell": "",
     "lat": 10.48801,
     "lng": -66.87919,
-    "geocodeNote": "cache"
+    "geocodeNote": "open-meteo"
   },
   {
     "id": 131,
@@ -1831,7 +1831,7 @@
     "vicePresidentCell": "",
     "lat": 43.58444,
     "lng": -89.79747,
-    "geocodeNote": "cache"
+    "geocodeNote": "open-meteo"
   },
   {
     "id": 132,
@@ -1845,7 +1845,7 @@
     "vicePresidentCell": "",
     "lat": 43.00635,
     "lng": -108.88235,
-    "geocodeNote": "cache"
+    "geocodeNote": "open-meteo"
   },
   {
     "id": 133,
@@ -1859,7 +1859,7 @@
     "vicePresidentCell": "",
     "lat": -27.46794,
     "lng": 153.02809,
-    "geocodeNote": "cache"
+    "geocodeNote": "open-meteo"
   },
   {
     "id": 134,
@@ -1873,7 +1873,7 @@
     "vicePresidentCell": "",
     "lat": 45.89868,
     "lng": -64.36836,
-    "geocodeNote": "cache"
+    "geocodeNote": "open-meteo"
   },
   {
     "id": 135,
@@ -1887,7 +1887,7 @@
     "vicePresidentCell": "",
     "lat": 51.43787,
     "lng": 14.23549,
-    "geocodeNote": "cache"
+    "geocodeNote": "open-meteo"
   },
   {
     "id": 136,
@@ -1901,6 +1901,6 @@
     "vicePresidentCell": "",
     "lat": 14.6042,
     "lng": 120.9822,
-    "geocodeNote": "cache"
+    "geocodeNote": "open-meteo"
   }
 ]

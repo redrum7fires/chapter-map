@@ -1,7 +1,7 @@
 /**
  * Batch geocode chapters.
  * Primary: Open-Meteo (FREE, no key)
- * Fallback (only when not found): Nominatim (OpenStreetMap) with polite headers + throttle
+ * Optional Fallback: Nominatim (OpenStreetMap) — OFF by default (many people get 403 blocks)
  *
  * Input : data/chapters.csv
  * Output: data/chapters.json
@@ -12,6 +12,9 @@
  *
  * Optional CSV columns (popup):
  *   PresidentName, PresidentCell, VicePresidentName, VicePresidentCell
+ *
+ * Optional override columns (skip geocoding when present):
+ *   LatOverride, LngOverride
  *
  * Run:
  *   node scripts/geocode.js
@@ -24,7 +27,9 @@ import { fileURLToPath } from "url";
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
+// NOTE: Your file currently uses ROOT = path.resolve(__dirname, ".") (so scripts + data are siblings). :contentReference[oaicite:2]{index=2}
 const ROOT = path.resolve(__dirname, "..");
+
 const DATA_DIR = path.join(ROOT, "data");
 
 const CSV_PATH = path.join(DATA_DIR, "chapters.csv");
@@ -32,8 +37,11 @@ const OUT_JSON_PATH = path.join(DATA_DIR, "chapters.json");
 const CACHE_PATH = path.join(DATA_DIR, "geocode-cache.json");
 
 // Throttle requests (be polite)
-const REQUEST_DELAY_MS = 600;         // between geocode attempts
-const NOMINATIM_DELAY_MS = 900;       // extra delay before Nominatim fallback
+const REQUEST_DELAY_MS = 600;   // between geocode attempts
+
+// Nominatim: OFF by default because many users hit 403 blocks. :contentReference[oaicite:3]{index=3}
+const USE_NOMINATIM_FALLBACK = false;
+const NOMINATIM_DELAY_MS = 900;
 
 /* ----------------------------- helpers ----------------------------- */
 
@@ -77,6 +85,14 @@ function normalizePlaceName(city) {
   return c;
 }
 
+function toFiniteNumberOrNull(v) {
+  const s = String(v ?? "").trim();
+  if (!s) return null;            // <-- critical fix: blank stays null, not 0
+  const n = Number(s);
+  return Number.isFinite(n) ? n : null;
+}
+
+
 function parseCsv(csvText) {
   const lines = csvText
     .split(/\r?\n/)
@@ -94,15 +110,18 @@ function parseCsv(csvText) {
   }
 
   const optIndex = (col) => (idx(col) === -1 ? null : idx(col));
+
   const pName = optIndex("PresidentName");
   const pCell = optIndex("PresidentCell");
   const vpName = optIndex("VicePresidentName");
   const vpCell = optIndex("VicePresidentCell");
 
-  return lines.map((line) => {
-    // NOTE: Assumes no commas inside values (no quoted commas).
-    const parts = line.split(",").map((p) => p.trim());
+  const latOv = optIndex("LatOverride");
+  const lngOv = optIndex("LngOverride");
 
+  return lines.map((line) => {
+    // NOTE: Assumes no commas inside values (no quoted commas). :contentReference[oaicite:4]{index=4}
+    const parts = line.split(",").map((p) => p.trim());
     const country = normalizeCountryName(parts[idx("Country")] || "");
 
     return {
@@ -114,7 +133,10 @@ function parseCsv(csvText) {
       PresidentName: pName !== null ? parts[pName] || "" : "",
       PresidentCell: pCell !== null ? parts[pCell] || "" : "",
       VicePresidentName: vpName !== null ? parts[vpName] || "" : "",
-      VicePresidentCell: vpCell !== null ? parts[vpCell] || "" : ""
+      VicePresidentCell: vpCell !== null ? parts[vpCell] || "" : "",
+
+      LatOverride: latOv !== null ? parts[latOv] || "" : "",
+      LngOverride: lngOv !== null ? parts[lngOv] || "" : ""
     };
   });
 }
@@ -128,7 +150,6 @@ function makeCacheKey({ City, StateRegion, Country }) {
 
 /* --------------------------- geocoding ---------------------------- */
 
-// Open-Meteo search: return several hits so we can pick best match
 async function openMeteoSearch(name, countryISO2 = "") {
   const url = new URL("https://geocoding-api.open-meteo.com/v1/search");
   url.searchParams.set("name", name);
@@ -157,7 +178,7 @@ async function openMeteoSearch(name, countryISO2 = "") {
     .filter((r) => Number.isFinite(r.lat) && Number.isFinite(r.lng));
 }
 
-// Nominatim fallback (only used when Open-Meteo fails)
+// Nominatim fallback (kept for later, but OFF by default)
 async function geocodeNominatim(query) {
   const url = new URL("https://nominatim.openstreetmap.org/search");
   url.searchParams.set("q", query);
@@ -166,7 +187,6 @@ async function geocodeNominatim(query) {
 
   const res = await fetch(url.toString(), {
     headers: {
-      // Replace with your contact email (recommended by Nominatim usage guidance)
       "User-Agent": "ChapterMapPrototype/1.0 (contact: you@example.com)"
     }
   });
@@ -195,7 +215,6 @@ async function geocodeWithFallback(row) {
 
   if (!city || !countryName) return null;
 
-  // Try stricter queries first
   const candidates = [
     [city, state, countryName].filter(Boolean).join(", "),
     [city, countryName].filter(Boolean).join(", "),
@@ -209,35 +228,37 @@ async function geocodeWithFallback(row) {
     for (const t of tries) {
       const hits = await openMeteoSearch(t.q, t.iso2);
       if (hits.length > 0) {
-  const expectedState = (row.StateRegion || "").trim().toLowerCase();
-  const expectedCountry = (row.Country || "").trim().toLowerCase();
+        // Prefer exact match on country + admin1/state when possible (fixes Mt Pleasant MI -> NC)
+        const expectedState = (row.StateRegion || "").trim().toLowerCase();
+        const expectedCountry = normalizeCountryName(row.Country).trim().toLowerCase();
 
-  // Prefer exact match on country + admin1/state when state is provided
-  const best = hits.find(h =>
-    (h.country || "").toLowerCase() === expectedCountry &&
-    (!expectedState || (h.admin1 || "").toLowerCase() === expectedState)
-  ) || hits.find(h =>
-    // fallback: at least match country
-    (h.country || "").toLowerCase() === expectedCountry
-  ) || hits[0];
+        const best =
+          hits.find(
+            (h) =>
+              (h.country || "").toLowerCase() === expectedCountry &&
+              (!expectedState || (h.admin1 || "").toLowerCase() === expectedState)
+          ) ||
+          hits.find((h) => (h.country || "").toLowerCase() === expectedCountry) ||
+          hits[0];
 
-  return { lat: best.lat, lng: best.lng, source: "open-meteo" };
-}
-
+        return { lat: best.lat, lng: best.lng, source: "open-meteo", queryUsed: t.q };
+      }
     }
   }
 
-  // 2) Nominatim fallback (only for misses)
-  await sleep(NOMINATIM_DELAY_MS);
+  // 2) Nominatim fallback (OFF by default)
+  if (USE_NOMINATIM_FALLBACK) {
+    await sleep(NOMINATIM_DELAY_MS);
 
-  const fallbackQueries = [
-    [city, state, countryName].filter(Boolean).join(", "),
-    [city, countryName].filter(Boolean).join(", ")
-  ];
+    const fallbackQueries = [
+      [city, state, countryName].filter(Boolean).join(", "),
+      [city, countryName].filter(Boolean).join(", ")
+    ];
 
-  for (const q of fallbackQueries) {
-    const r = await geocodeNominatim(q);
-    if (r) return { ...r, source: "nominatim", queryUsed: q };
+    for (const q of fallbackQueries) {
+      const r = await geocodeNominatim(q);
+      if (r) return { ...r, source: "nominatim", queryUsed: q };
+    }
   }
 
   return null;
@@ -257,6 +278,7 @@ async function main() {
   let cacheHits = 0;
   let apiCalls = 0;
   let failures = 0;
+  let overrides = 0;
 
   for (let i = 0; i < rows.length; i++) {
     const row = rows[i];
@@ -274,6 +296,17 @@ async function main() {
       vicePresidentName: row.VicePresidentName,
       vicePresidentCell: row.VicePresidentCell
     };
+
+    // --- 0) Overrides: if LatOverride/LngOverride provided, use them and skip geocoding ---
+    const latOv = toFiniteNumberOrNull(row.LatOverride);
+    const lngOv = toFiniteNumberOrNull(row.LngOverride);
+    if (latOv !== null && lngOv !== null) {
+      overrides++;
+      // store into cache too so the same location key stays consistent
+      if (key) cache[key] = { lat: latOv, lng: lngOv };
+      output.push({ ...baseOut, lat: latOv, lng: lngOv, geocodeNote: "override" });
+      continue;
+    }
 
     if (!key) {
       failures++;
@@ -323,6 +356,7 @@ async function main() {
 
   console.log("\nGeocoding complete.");
   console.log(`Total chapters : ${rows.length}`);
+  console.log(`Overrides      : ${overrides}`);
   console.log(`Cache hits     : ${cacheHits}`);
   console.log(`API calls      : ${apiCalls}`);
   console.log(`Failures       : ${failures}`);

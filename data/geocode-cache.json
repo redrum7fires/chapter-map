@@ -251,6 +251,10 @@
     "lat": 33.96095,
     "lng": -83.37794
   },
+  "honolulu|hawaii|united states": {
+    "lat": 21.30694,
+    "lng": -157.85834
+  },
   "kono|hawaii|united states": {
     "lat": 8.58333,
     "lng": 37.9
@@ -259,9 +263,9 @@
     "lat": 19.49404,
     "lng": -154.9443
   },
-  "honolulu|hawaii|united states": {
-    "lat": 21.30694,
-    "lng": -157.85834
+  "kailua-kona|hawaii|united states": {
+    "lat": 19.64016,
+    "lng": -155.99911
   },
   "sullivan|indiana|united states": {
     "lat": 39.09532,
@@ -283,9 +287,9 @@
     "lat": 32.52515,
     "lng": -93.75018
   },
-  "bangor|maine|united states": {
-    "lat": 44.79884,
-    "lng": -68.77265
+  "passamaquoddy indian township|maine|united states": {
+    "lat": 45.19,
+    "lng": -67.69
   },
   "crofton|maryland|united states": {
     "lat": 39.00178,
@@ -399,9 +403,9 @@
     "lat": 35.26208,
     "lng": -81.1873
   },
-  "north royalton|ohio|united states": {
-    "lat": 41.31366,
-    "lng": -81.72457
+  "cleveland|ohio|united states": {
+    "lat": 41.4995,
+    "lng": -81.69541
   },
   "bowling green|ohio|united states": {
     "lat": 41.37477,
@@ -487,9 +491,9 @@
     "lat": 46.60207,
     "lng": -120.5059
   },
-  "tacoma|washington|united states": {
-    "lat": 47.25288,
-    "lng": -122.44429
+  "nisqually|washington|united states": {
+    "lat": 47.05649,
+    "lng": -122.70124
   },
   "caracas|capital|venezuela": {
     "lat": 10.48801,
@@ -518,13 +522,5 @@
   "manila|national capital region|philippines": {
     "lat": 14.6042,
     "lng": 120.9822
-  },
-  "kailua-kona|hawaii|united states": {
-    "lat": 19.64016,
-    "lng": -155.99911
-  },
-  "cleveland|ohio|united states": {
-    "lat": 41.4995,
-    "lng": -81.69541
   }
 }
