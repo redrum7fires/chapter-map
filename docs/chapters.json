@@ -641,7 +641,7 @@
     "vicePresidentCell": "",
     "lat": 35.62664,
     "lng": -120.691,
-    "geocodeNote": "open-meteo"
+    "geocodeNote": "cache"
   },
   {
     "id": 47,
@@ -655,7 +655,7 @@
     "vicePresidentCell": "",
     "lat": 37.33939,
     "lng": -121.89496,
-    "geocodeNote": "open-meteo"
+    "geocodeNote": "cache"
   },
   {
     "id": 48,
@@ -683,7 +683,7 @@
     "vicePresidentCell": "",
     "lat": 36.74773,
     "lng": -119.77237,
-    "geocodeNote": "open-meteo"
+    "geocodeNote": "cache"
   },
   {
     "id": 50,
@@ -1227,9 +1227,9 @@
     "presidentCell": "",
     "vicePresidentName": "",
     "vicePresidentCell": "",
-    "lat": 42.32652,
-    "lng": -122.87559,
-    "geocodeNote": "cache"
+    "lat": 39.87,
+    "lng": 74.84,
+    "geocodeNote": "override"
   },
   {
     "id": 89,
