@@ -239,7 +239,7 @@
   },
   {
     "id": 18,
-    "chapterName": "\"Big River \"\"Prospective\"\"\"",
+    "chapterName": "Big River",
     "city": "Stony Plain",
     "stateRegion": "Alberta",
     "country": "Canada",
@@ -249,7 +249,7 @@
     "vicePresidentCell": "",
     "lat": 53.53343,
     "lng": -114.00205,
-    "geocodeNote": "open-meteo"
+    "geocodeNote": "cache"
   },
   {
     "id": 19,
