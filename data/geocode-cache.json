@@ -526,5 +526,9 @@
   "niagara falls|new york|united states": {
     "lat": 43.0945,
     "lng": -79.05671
+  },
+  "winnipeg|manitoba|canada": {
+    "lat": 49.8844,
+    "lng": -97.14704
   }
 }

@@ -114,16 +114,16 @@
   {
     "id": 9,
     "chapterName": "Great Plains",
-    "city": "Calgary",
+    "city": "Winnipeg",
     "stateRegion": "Manitoba",
     "country": "Canada",
     "presidentName": "",
     "presidentCell": "",
     "vicePresidentName": "",
     "vicePresidentCell": "",
-    "lat": 51.05011,
-    "lng": -114.08529,
-    "geocodeNote": "cache"
+    "lat": 49.8844,
+    "lng": -97.14704,
+    "geocodeNote": "open-meteo"
   },
   {
     "id": 10,
@@ -1383,7 +1383,7 @@
     "vicePresidentCell": "",
     "lat": 43.0945,
     "lng": -79.05671,
-    "geocodeNote": "open-meteo"
+    "geocodeNote": "cache"
   },
   {
     "id": 100,
