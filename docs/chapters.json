@@ -632,30 +632,30 @@
   {
     "id": 46,
     "chapterName": "Bear Valley Black Bear",
-    "city": "Atascadero",
+    "city": "Paso Robles",
     "stateRegion": "California",
     "country": "United States",
     "presidentName": "",
     "presidentCell": "",
     "vicePresidentName": "",
     "vicePresidentCell": "",
-    "lat": 35.48942,
-    "lng": -120.67073,
-    "geocodeNote": "cache"
+    "lat": 35.62664,
+    "lng": -120.691,
+    "geocodeNote": "open-meteo"
   },
   {
     "id": 47,
     "chapterName": "Aztl�n�huac",
-    "city": "Salinas",
+    "city": "San Jose",
     "stateRegion": "California",
     "country": "United States",
     "presidentName": "",
     "presidentCell": "",
     "vicePresidentName": "",
     "vicePresidentCell": "",
-    "lat": 36.67774,
-    "lng": -121.6555,
-    "geocodeNote": "cache"
+    "lat": 37.33939,
+    "lng": -121.89496,
+    "geocodeNote": "open-meteo"
   },
   {
     "id": 48,
@@ -674,16 +674,16 @@
   {
     "id": 49,
     "chapterName": "Cen-Cal Dogmen",
-    "city": "Clovis",
+    "city": "Fresno",
     "stateRegion": "California",
     "country": "United States",
     "presidentName": "",
     "presidentCell": "",
     "vicePresidentName": "",
     "vicePresidentCell": "",
-    "lat": 36.82523,
-    "lng": -119.70292,
-    "geocodeNote": "cache"
+    "lat": 36.74773,
+    "lng": -119.77237,
+    "geocodeNote": "open-meteo"
   },
   {
     "id": 50,
@@ -716,15 +716,15 @@
   {
     "id": 52,
     "chapterName": "Spirit Mountain",
-    "city": "Redding",
+    "city": "Sacramento",
     "stateRegion": "California",
     "country": "United States",
     "presidentName": "",
     "presidentCell": "",
     "vicePresidentName": "",
     "vicePresidentCell": "",
-    "lat": 40.58654,
-    "lng": -122.39168,
+    "lat": 38.58157,
+    "lng": -121.4944,
     "geocodeNote": "cache"
   },
   {
@@ -1915,6 +1915,6 @@
     "vicePresidentCell": "",
     "lat": 20.52353,
     "lng": -100.8157,
-    "geocodeNote": "open-meteo"
+    "geocodeNote": "cache"
   }
 ]
