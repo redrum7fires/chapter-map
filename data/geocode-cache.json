@@ -530,5 +530,9 @@
   "winnipeg|manitoba|canada": {
     "lat": 49.8844,
     "lng": -97.14704
+  },
+  "stony plain|alberta|canada": {
+    "lat": 53.53343,
+    "lng": -114.00205
   }
 }

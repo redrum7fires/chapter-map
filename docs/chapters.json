@@ -123,7 +123,7 @@
     "vicePresidentCell": "",
     "lat": 49.8844,
     "lng": -97.14704,
-    "geocodeNote": "open-meteo"
+    "geocodeNote": "cache"
   },
   {
     "id": 10,
@@ -240,16 +240,16 @@
   {
     "id": 18,
     "chapterName": "\"Big River \"\"Prospective\"\"\"",
-    "city": "Debden",
+    "city": "Stony Plain",
     "stateRegion": "Alberta",
     "country": "Canada",
     "presidentName": "",
     "presidentCell": "",
     "vicePresidentName": "",
     "vicePresidentCell": "",
-    "lat": 53.5168,
-    "lng": -106.88444,
-    "geocodeNote": "cache"
+    "lat": 53.53343,
+    "lng": -114.00205,
+    "geocodeNote": "open-meteo"
   },
   {
     "id": 19,
