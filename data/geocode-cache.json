@@ -542,5 +542,17 @@
   "celaya|guanajuato|mexico": {
     "lat": 20.52353,
     "lng": -100.8157
+  },
+  "paso robles|california|united states": {
+    "lat": 35.62664,
+    "lng": -120.691
+  },
+  "san jose|california|united states": {
+    "lat": 37.33939,
+    "lng": -121.89496
+  },
+  "fresno|california|united states": {
+    "lat": 36.74773,
+    "lng": -119.77237
   }
 }
