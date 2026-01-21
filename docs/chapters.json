@@ -758,16 +758,16 @@
   {
     "id": 55,
     "chapterName": "NIM",
-    "city": "Sacramento",
+    "city": "North Fork",
     "stateRegion": "California",
     "country": "United States",
     "presidentName": "",
     "presidentCell": "",
     "vicePresidentName": "",
     "vicePresidentCell": "",
-    "lat": 38.58157,
-    "lng": -121.4944,
-    "geocodeNote": "cache"
+    "lat": 37.22967,
+    "lng": -119.50958,
+    "geocodeNote": "open-meteo"
   },
   {
     "id": 56,

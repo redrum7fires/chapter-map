@@ -534,5 +534,9 @@
   "stony plain|alberta|canada": {
     "lat": 53.53343,
     "lng": -114.00205
+  },
+  "north fork|california|united states": {
+    "lat": 37.22967,
+    "lng": -119.50958
   }
 }
