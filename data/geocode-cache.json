@@ -538,5 +538,9 @@
   "north fork|california|united states": {
     "lat": 37.22967,
     "lng": -119.50958
+  },
+  "celaya|guanajuato|mexico": {
+    "lat": 20.52353,
+    "lng": -100.8157
   }
 }

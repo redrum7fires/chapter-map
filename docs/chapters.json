@@ -767,7 +767,7 @@
     "vicePresidentCell": "",
     "lat": 37.22967,
     "lng": -119.50958,
-    "geocodeNote": "open-meteo"
+    "geocodeNote": "cache"
   },
   {
     "id": 56,
@@ -1902,5 +1902,19 @@
     "lat": 14.6042,
     "lng": 120.9822,
     "geocodeNote": "cache"
+  },
+  {
+    "id": 137,
+    "chapterName": "\"Nahua \"\"Prospective\"\"\"",
+    "city": "Celaya",
+    "stateRegion": "Guanajuato",
+    "country": "Mexico",
+    "presidentName": "",
+    "presidentCell": "",
+    "vicePresidentName": "",
+    "vicePresidentCell": "",
+    "lat": 20.52353,
+    "lng": -100.8157,
+    "geocodeNote": "open-meteo"
   }
 ]
